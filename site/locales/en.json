@@ -152,6 +152,36 @@
     },
     "projects": [
       {
+        "name": "Enterprise MCP Platform",
+        "category": "AI Infrastructure · Enterprise Integration",
+        "description": "A platform concept for securely exposing enterprise APIs and capabilities to AI agents through MCP.",
+        "status": "concept",
+        "tagline": "Platform concept",
+        "flow": [
+          "Enterprise APIs",
+          "MCP Platform",
+          "Security / Governance",
+          "AI Agents"
+        ],
+        "concepts": [
+          "MCP",
+          "API abstraction",
+          "Enterprise integrations",
+          "Access control",
+          "Data governance",
+          "Security",
+          "AI agent enablement"
+        ],
+        "caseStudy": {
+          "problem": "AI agents need access to enterprise capabilities, but exposing APIs directly creates security, access-control and governance risk.",
+          "product": "A platform that abstracts enterprise APIs and capabilities behind MCP, so AI agents can be enabled safely and consistently.",
+          "architecture": "Enterprise APIs are exposed through an MCP platform with security, access control and data governance, then consumed by AI agents.",
+          "decisions": "MCP as the standard interface; API abstraction; access control and governance as platform capabilities; enabling agents without direct API exposure.",
+          "challenges": "Securing agent access, governing data, and keeping integrations consistent across the enterprise.",
+          "tradeoffs": "Security rigor versus agent flexibility; abstraction versus integration fidelity."
+        }
+      },
+      {
         "name": "AI Software Factory",
         "category": "AI Product Engineering · Agentic Software Development",
         "description": "An AI-driven software development orchestration platform designed to transform product requirements into implementation-ready software changes.",
@@ -282,36 +312,6 @@
           "decisions": "Multi-tenancy as a first-class concern; a knowledge layer abstraction; RAG for grounded retrieval; governance and privacy-by-design (LGPD) from the start.",
           "challenges": "Isolating tenants, governing data, and balancing retrieval quality with governance and privacy requirements.",
           "tradeoffs": "RAG fidelity versus complexity; governance overhead versus speed; multi-tenant isolation versus operational cost."
-        }
-      },
-      {
-        "name": "Enterprise MCP Platform",
-        "category": "AI Infrastructure · Enterprise Integration",
-        "description": "A platform concept for securely exposing enterprise APIs and capabilities to AI agents through MCP.",
-        "status": "concept",
-        "tagline": "Platform concept",
-        "flow": [
-          "Enterprise APIs",
-          "MCP Platform",
-          "Security / Governance",
-          "AI Agents"
-        ],
-        "concepts": [
-          "MCP",
-          "API abstraction",
-          "Enterprise integrations",
-          "Access control",
-          "Data governance",
-          "Security",
-          "AI agent enablement"
-        ],
-        "caseStudy": {
-          "problem": "AI agents need access to enterprise capabilities, but exposing APIs directly creates security, access-control and governance risk.",
-          "product": "A platform that abstracts enterprise APIs and capabilities behind MCP, so AI agents can be enabled safely and consistently.",
-          "architecture": "Enterprise APIs are exposed through an MCP platform with security, access control and data governance, then consumed by AI agents.",
-          "decisions": "MCP as the standard interface; API abstraction; access control and governance as platform capabilities; enabling agents without direct API exposure.",
-          "challenges": "Securing agent access, governing data, and keeping integrations consistent across the enterprise.",
-          "tradeoffs": "Security rigor versus agent flexibility; abstraction versus integration fidelity."
         }
       }
     ]

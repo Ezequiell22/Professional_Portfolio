@@ -152,6 +152,36 @@
     },
     "projects": [
       {
+        "name": "Enterprise MCP Platform",
+        "category": "AI Infrastructure · Enterprise Integration",
+        "description": "Um conceito de plataforma para expor com segurança APIs e capacidades enterprise a AI agents por meio de MCP.",
+        "status": "concept",
+        "tagline": "Conceito de plataforma",
+        "flow": [
+          "APIs Enterprise",
+          "Plataforma MCP",
+          "Segurança / Governança",
+          "AI Agents"
+        ],
+        "concepts": [
+          "MCP",
+          "Abstração de API",
+          "Integrações enterprise",
+          "Controle de acesso",
+          "Governança de dados",
+          "Segurança",
+          "Habilitação de AI agents"
+        ],
+        "caseStudy": {
+          "problem": "AI agents precisam de acesso a capacidades enterprise, mas expor APIs diretamente cria riscos de segurança, controle de acesso e governança.",
+          "product": "Uma plataforma que abstrai APIs e capacidades enterprise por trás do MCP, para que AI agents possam ser habilitados com segurança e consistência.",
+          "architecture": "APIs enterprise são expostas por meio de uma plataforma MCP com segurança, controle de acesso e governança de dados, e então consumidas por AI agents.",
+          "decisions": "MCP como interface padrão; abstração de API; controle de acesso e governança como capacidades da plataforma; habilitar agentes sem exposição direta de APIs.",
+          "challenges": "Proteger o acesso dos agentes, governar dados e manter integrações consistentes em toda a empresa.",
+          "tradeoffs": "Rigor de segurança versus flexibilidade dos agentes; abstração versus fidelidade de integração."
+        }
+      },
+      {
         "name": "AI Software Factory",
         "category": "AI Product Engineering · Agentic Software Development",
         "description": "Uma plataforma de orquestração de desenvolvimento de software guiada por IA, projetada para transformar requisitos de produto em mudanças de software prontas para implementação.",
@@ -282,36 +312,6 @@
           "decisions": "Multi-tenancy como preocupação de primeira classe; abstração de camada de conhecimento; RAG para recuperação fundamentada; governança e privacy-by-design (LGPD) desde o início.",
           "challenges": "Isolar tenants, governar dados e equilibrar qualidade de recuperação com requisitos de governança e privacidade.",
           "tradeoffs": "Fidelidade do RAG versus complexidade; custo de governança versus velocidade; isolamento multi-tenant versus custo operacional."
-        }
-      },
-      {
-        "name": "Enterprise MCP Platform",
-        "category": "AI Infrastructure · Enterprise Integration",
-        "description": "Um conceito de plataforma para expor com segurança APIs e capacidades enterprise a AI agents por meio de MCP.",
-        "status": "concept",
-        "tagline": "Conceito de plataforma",
-        "flow": [
-          "APIs Enterprise",
-          "Plataforma MCP",
-          "Segurança / Governança",
-          "AI Agents"
-        ],
-        "concepts": [
-          "MCP",
-          "Abstração de API",
-          "Integrações enterprise",
-          "Controle de acesso",
-          "Governança de dados",
-          "Segurança",
-          "Habilitação de AI agents"
-        ],
-        "caseStudy": {
-          "problem": "AI agents precisam de acesso a capacidades enterprise, mas expor APIs diretamente cria riscos de segurança, controle de acesso e governança.",
-          "product": "Uma plataforma que abstrai APIs e capacidades enterprise por trás do MCP, para que AI agents possam ser habilitados com segurança e consistência.",
-          "architecture": "APIs enterprise são expostas por meio de uma plataforma MCP com segurança, controle de acesso e governança de dados, e então consumidas por AI agents.",
-          "decisions": "MCP como interface padrão; abstração de API; controle de acesso e governança como capacidades da plataforma; habilitar agentes sem exposição direta de APIs.",
-          "challenges": "Proteger o acesso dos agentes, governar dados e manter integrações consistentes em toda a empresa.",
-          "tradeoffs": "Rigor de segurança versus flexibilidade dos agentes; abstração versus fidelidade de integração."
         }
       }
     ]

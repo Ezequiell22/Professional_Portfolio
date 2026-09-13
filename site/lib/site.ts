@@ -10,9 +10,9 @@ export const SITE = {
 
 export const LINKS = {
   // TODO: replace with your real profile URLs.
-  linkedin: "https://www.linkedin.com/in/your-handle",
-  github: "https://github.com/your-handle",
-  email: "you@example.com",
+  linkedin: "https://www.linkedin.com/in/ezequiel-me",
+  github: "https://github.com/ezequiell22",
+  email: "ezequielmdev@gmail.com",
 };
 
 export const EMAIL_HREF = `mailto:${LINKS.email}`;
