@@ -95,7 +95,7 @@ export default function Navigation({ t }: { t: Dictionary }) {
           </div>
           <a
             href="#contact"
-            className="hidden h-9 items-center justify-center rounded-full bg-fg px-4 text-sm font-medium text-bg transition-opacity hover:opacity-85 md:inline-flex"
+            className="hidden h-9 items-center justify-center rounded-full bg-accent px-4 text-sm font-medium text-white transition-colors hover:bg-accent-bright md:inline-flex"
           >
             {t.nav.connect}
           </a>
@@ -143,7 +143,7 @@ export default function Navigation({ t }: { t: Dictionary }) {
             <a
               href="#contact"
               onClick={() => setOpen(false)}
-              className="mt-2 inline-flex h-11 items-center justify-center rounded-full bg-fg px-5 text-sm font-medium text-bg"
+              className="mt-2 inline-flex h-11 items-center justify-center rounded-full bg-accent px-5 text-sm font-medium text-white transition-colors hover:bg-accent-bright"
             >
               {t.nav.connect}
             </a>

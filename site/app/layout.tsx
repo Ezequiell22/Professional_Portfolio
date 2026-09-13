@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: enMeta.title,
   description: enMeta.description,
-  applicationName: "Ezequiel Menegas — AI Product Builder",
+  applicationName: "Ezequiel Menegas — AI Product Manager",
   authors: [{ name: SITE.name }],
   keywords: [
     "AI Product Manager",

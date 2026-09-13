@@ -11,14 +11,6 @@ export default function Cta({ t }: { t: Dictionary }) {
       <Container>
         <Reveal>
           <div className="relative overflow-hidden rounded-3xl border border-border bg-surface px-6 py-16 text-center md:px-12 md:py-20">
-            <div
-              className="pointer-events-none absolute inset-0"
-              style={{
-                background:
-                  "radial-gradient(ellipse 60% 70% at 50% 0%, rgba(37,99,235,0.12), transparent 70%)",
-              }}
-              aria-hidden="true"
-            />
             <h2 className="relative text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
               {c.title}
             </h2>
@@ -31,7 +23,7 @@ export default function Cta({ t }: { t: Dictionary }) {
                 href={LINKS.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-full bg-fg px-7 text-sm font-medium text-bg transition-opacity hover:opacity-85 sm:w-auto"
+                className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-full bg-accent px-7 text-sm font-medium text-white transition-colors hover:bg-accent-bright sm:w-auto"
               >
                 {c.linkedin}
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">

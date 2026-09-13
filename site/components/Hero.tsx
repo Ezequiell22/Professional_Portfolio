@@ -7,14 +7,6 @@ export default function Hero({ t }: { t: Dictionary }) {
   return (
     <section id="top" className="relative overflow-hidden">
       <div className="bg-grid bg-grid-fade absolute inset-0" aria-hidden="true" />
-      <div
-        className="pointer-events-none absolute inset-x-0 top-0 h-[520px]"
-        style={{
-          background:
-            "radial-gradient(ellipse 60% 50% at 50% -10%, rgba(37,99,235,0.14), transparent 70%)",
-        }}
-        aria-hidden="true"
-      />
 
       <div className="relative mx-auto flex min-h-[100svh] w-full max-w-6xl flex-col justify-center px-6 pt-28 pb-16 md:px-8">
         <div className="max-w-3xl">
@@ -55,7 +47,7 @@ export default function Hero({ t }: { t: Dictionary }) {
           <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
               href="#work"
-              className="inline-flex h-12 items-center justify-center rounded-full bg-fg px-7 text-sm font-medium text-bg transition-opacity hover:opacity-85"
+              className="inline-flex h-12 items-center justify-center rounded-full bg-accent px-7 text-sm font-medium text-white transition-colors hover:bg-accent-bright"
             >
               {h.primaryCta}
             </a>
