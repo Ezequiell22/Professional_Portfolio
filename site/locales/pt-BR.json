@@ -176,8 +176,8 @@
         ]
       },
       {
-        "id": "enterprise-mcp-platform",
-        "name": "Enterprise MCP Platform",
+        "id": "mcp-platform",
+        "name": "MCP Platform",
         "category": "AI Infrastructure · API Governance · Enterprise Architecture",
         "status": "Caso de Arquitetura",
         "tagline": "Uma camada de acesso MCP/API governada que permite que agentes de IA enterprise interajam com sistemas de negócio por meio de interfaces controladas e observáveis.",

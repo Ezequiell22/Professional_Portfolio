@@ -176,8 +176,8 @@
         ]
       },
       {
-        "id": "enterprise-mcp-platform",
-        "name": "Enterprise MCP Platform",
+        "id": "mcp-platform",
+        "name": "MCP Platform",
         "category": "AI Infrastructure · API Governance · Enterprise Architecture",
         "status": "Architecture Case",
         "tagline": "A governed MCP/API access layer that enables enterprise AI agents to interact with business systems through controlled, observable interfaces.",

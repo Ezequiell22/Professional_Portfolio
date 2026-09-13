@@ -15,7 +15,7 @@ export default function Cta({ t }: { t: Dictionary }) {
               className="pointer-events-none absolute inset-0"
               style={{
                 background:
-                  "radial-gradient(ellipse 60% 70% at 50% 0%, rgba(99,102,241,0.12), transparent 70%)",
+                  "radial-gradient(ellipse 60% 70% at 50% 0%, rgba(37,99,235,0.12), transparent 70%)",
               }}
               aria-hidden="true"
             />

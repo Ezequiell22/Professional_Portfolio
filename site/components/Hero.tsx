@@ -11,7 +11,7 @@ export default function Hero({ t }: { t: Dictionary }) {
         className="pointer-events-none absolute inset-x-0 top-0 h-[520px]"
         style={{
           background:
-            "radial-gradient(ellipse 60% 50% at 50% -10%, rgba(99,102,241,0.14), transparent 70%)",
+            "radial-gradient(ellipse 60% 50% at 50% -10%, rgba(37,99,235,0.14), transparent 70%)",
         }}
         aria-hidden="true"
       />

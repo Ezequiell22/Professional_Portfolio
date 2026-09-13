@@ -26,7 +26,7 @@ export default function OpengraphImage() {
               width: 10,
               height: 10,
               borderRadius: 9999,
-              background: "#818cf8",
+              background: "#3b82f6",
             }}
           />
           <div
@@ -34,7 +34,7 @@ export default function OpengraphImage() {
               fontSize: 24,
               letterSpacing: "0.2em",
               textTransform: "uppercase",
-              color: "#a5b0ff",
+              color: "#60a5fa",
             }}
           >
             AI Product Builder
