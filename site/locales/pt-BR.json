@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Ezequiel Menegas — AI Product Manager | Arquitetura de Soluções de IA",
-    "description": "AI Product Manager que combina estratégia de produto, arquitetura de soluções de IA e engenharia para construir produtos inteligentes da ideia à produção.",
+    "description": "AI Product Manager que combina estratégia de produto, design de produto de IA e profundidade técnica para transformar problemas de negócio em produtos de IA mensuráveis.",
     "ogTitle": "Ezequiel Menegas — AI Product Manager",
-    "ogDescription": "Estratégia de produto, arquitetura de soluções de IA e engenharia hands-on, combinadas para transformar problemas de negócio complexos em produtos de IA práticos."
+    "ogDescription": "Transformo problemas de negócio complexos em produtos de IA mensuráveis — combinando estratégia de produto, arquitetura de IA e engenharia."
   },
   "nav": {
     "logo": "Ezequiel",
@@ -20,298 +20,309 @@
   },
   "hero": {
     "role": "AI Product Manager",
-    "eyebrow": "AI Product Management · AI Solutions Architecture · AI Engineering",
-    "title": "Construindo produtos inteligentes — de problemas de negócio a sistemas funcionando.",
-    "subtitle": "Atuo na interseção de estratégia de produto, arquitetura de IA e engenharia — explorando como capacidades emergentes de IA podem se tornar produtos úteis, confiáveis e escaláveis.",
+    "eyebrow": "Product Strategy · AI Product Design · AI Solutions Architecture · AI Engineering",
+    "title": "Transformo problemas de negócio complexos em produtos de IA mensuráveis.",
+    "subtitle": "AI Product Manager que atua entre estratégia de produto, design de produto de IA e engenharia — definindo resultados, desenhando o produto e construindo os sistemas que os entregam.",
     "primaryCta": "Explorar meus projetos",
     "secondaryCta": "Ver no GitHub"
   },
-  "capabilities": {
-    "kicker": "Competências",
-    "title": "Com o que eu trabalho",
-    "subtitle": "Quatro áreas que eu combino entre produto, IA, arquitetura e engenharia — demonstradas nos projetos acima.",
-    "expandLabel": "Ver detalhes",
-    "collapseLabel": "Ocultar detalhes",
-    "areas": [
-      {
-        "id": "01",
-        "title": "Produto",
-        "summary": "Estratégia · Discovery · Roadmaps · Priorização · Métricas",
-        "details": [
-          "Estratégia de Produto",
-          "Product Discovery",
-          "Estruturação de Problemas",
-          "Roadmaps e Priorização",
-          "Definição de MVP",
-          "Requisitos de Produto",
-          "User Stories",
-          "Métricas de Produto",
-          "Gestão de Stakeholders",
-          "Agile / Scrum",
-          "Produto × Engenharia"
-        ]
-      },
-      {
-        "id": "02",
-        "title": "IA",
-        "summary": "LLMs · Agents · RAG · Avaliação · AI UX",
-        "details": [
-          "Produtos de IA Generativa",
-          "AI Agents",
-          "Agentic Workflows",
-          "Produtos RAG",
-          "AI UX",
-          "Human-in-the-loop",
-          "Avaliação de IA",
-          "Trade-offs de Accuracy / Latency / Cost",
-          "Governança de IA",
-          "IA Responsável"
-        ]
-      },
-      {
-        "id": "03",
-        "title": "Arquitetura",
-        "summary": "Sistemas · Integrações · MCP · Segurança · Governança",
-        "details": [
-          "Arquitetura de LLM",
-          "Arquitetura RAG",
-          "Arquitetura de Agentes",
-          "Sistemas Multi-agente",
-          "MCP",
-          "APIs",
-          "Integrações Enterprise",
-          "Arquitetura de Dados",
-          "Multi-tenancy",
-          "Segurança",
-          "Observabilidade",
-          "FinOps"
-        ]
-      },
-      {
-        "id": "04",
-        "title": "Engenharia",
-        "summary": "Python · LangGraph · LangChain · APIs · Dados · Cloud/DevOps",
-        "details": [
-          "Python",
-          "LangGraph",
-          "LangChain",
-          "LLMs",
-          "RAG",
-          "Bancos Vetoriais",
-          "Qdrant",
-          "Chroma",
-          "MCP",
-          "APIs",
-          "Docker",
-          "SQL",
-          "Git",
-          "Desenvolvimento assistido por IA"
-        ]
-      }
-    ]
-  },
-  "intersection": {
-    "kicker": "Arquitetura",
-    "title": "Onde produto, IA e sistemas se encontram",
-    "center": "PRODUTOS DE IA",
-    "message": "Minha força é atuar na interseção de produto, IA e engenharia — traduzindo oportunidades de negócio em produtos de IA tecnicamente viáveis.",
-    "circles": [
-      { "title": "PRODUTO", "items": ["Estratégia", "Discovery", "Roadmap", "Métricas"] },
-      { "title": "IA", "items": ["LLMs", "Agents", "RAG", "MCP"] },
-      { "title": "ARQUITETURA", "items": ["Sistemas", "Integração", "Segurança", "Governança"] }
-    ]
+  "productManagement": {
+    "kicker": "AI Product Management",
+    "title": "AI Product Management",
+    "subtitle": "Da descoberta do problema aos resultados mensuráveis de produto.",
+    "lifecycle": [
+      "PROBLEMA",
+      "DISCOVERY",
+      "OPORTUNIDADE",
+      "VISÃO DE PRODUTO",
+      "MVP",
+      "EXPERIÊNCIA DE IA",
+      "ARQUITETURA",
+      "ENTREGA",
+      "MEDIR",
+      "ITERAR"
+    ],
+    "statement": "Não trato IA como um recurso a ser adicionado a um produto existente. Começo pelo problema do usuário, defino o resultado desejado, identifico onde a IA gera alavancagem e desenho o produto e a arquitetura em torno desse resultado."
   },
   "work": {
-    "kicker": "Trabalhos selecionados",
-    "title": "Trabalhos selecionados",
-    "subtitle": "Produtos, plataformas e sistemas de engenharia de IA que estou construindo e explorando.",
-    "statusLabel": "Status",
-    "flowLabel": "Fluxo",
-    "conceptsLabel": "Conceitos",
-    "caseStudyLabel": "Ver case study",
-    "caseStudyClose": "Fechar case study",
+    "kicker": "Casos de produto selecionados",
+    "title": "Casos de produto selecionados",
+    "subtitle": "Produtos e sistemas de IA desenhados em torno de problemas reais de negócio.",
+    "completedLabel": "Concluído",
     "featuredLabel": "Destaque",
-    "sections": {
+    "labels": {
       "problem": "Problema",
-      "product": "Produto",
-      "architecture": "Arquitetura",
-      "decisions": "Decisões de produto",
-      "challenges": "Desafios de IA",
-      "tradeoffs": "Trade-offs"
-    },
-    "statuses": {
-      "concept": "Conceito",
-      "prototype": "Protótipo",
-      "development": "Em desenvolvimento",
-      "experiment": "Experimento",
-      "production": "Produção"
+      "solution": "Solução",
+      "before": "Antes",
+      "after": "Depois",
+      "impact": "Impacto",
+      "metricsToMeasure": "Métricas a medir",
+      "aiArchitecture": "IA / Arquitetura"
     },
     "projects": [
       {
         "name": "AI Software Factory",
         "category": "AI Product Engineering · Agentic Software Development",
-        "description": "Uma abordagem AI-native para o desenvolvimento de produtos de software — uma plataforma de orquestração que transforma requisitos de produto em mudanças de software prontas para implementação, por meio de especificações, agentes especializados e fluxos de engenharia.",
-        "status": "development",
         "featured": true,
-        "tagline": "Uma abordagem AI-native para o desenvolvimento de produtos de software.",
-        "flow": [
-          "Requisito de Negócio",
-          "Especificação",
-          "Planejamento",
-          "Agentes Especializados",
-          "Implementação",
-          "Validação",
-          "Pull Request"
+        "problem": "O desenvolvimento de software assistido por IA pode se tornar inconsistente quando requisitos, contexto, arquitetura e decisões de implementação não são estruturados.",
+        "solution": "Um fluxo de orquestração que estrutura o caminho do requisito de produto à implementação — por meio de especificação, planejamento, agentes especializados, validação e pull requests.",
+        "before": {
+          "flow": ["Requisito", "Desenvolvedor / assistente de IA", "Código"],
+          "notes": [
+            "Contexto fragmentado",
+            "Especificações inconsistentes",
+            "Validação difícil",
+            "Rastreabilidade fraca",
+            "Decisões de engenharia repetitivas"
+          ]
+        },
+        "after": {
+          "flow": [
+            "Requisito de Produto",
+            "Especificação",
+            "Planejamento",
+            "AI Agents Especializados",
+            "Implementação",
+            "Validação / Revisão",
+            "Pull Request"
+          ]
+        },
+        "impact": [
+          "Fluxo estruturado de produto para engenharia",
+          "Rastreabilidade aprimorada",
+          "Melhor gestão de contexto",
+          "Processo de desenvolvimento repetível",
+          "Menos atrito entre requisitos e implementação"
         ],
-        "concepts": [
+        "metrics": [
+          { "outcome": "Reduzir o atrito requisito-implementação", "metric": "Tempo do requisito à mudança pronta para implementação" },
+          { "outcome": "Melhorar a consistência de engenharia", "metric": "Taxa de retrabalho em revisão" }
+        ],
+        "tech": [
           "Orquestração de agentes",
           "Specification-driven development",
           "Context engineering",
-          "Desenvolvimento assistido por IA",
           "Arquitetura de software",
           "Revisão automatizada",
-          "Fluxos de engenharia"
-        ],
-        "caseStudy": {
-          "problem": "Reduzir a distância entre requisitos de produto e mudanças de implementação de alta qualidade — diminuindo o atrito, a inconsistência e o custo de revisão que desaceleram o desenvolvimento assistido por IA.",
-          "product": "Uma plataforma de orquestração que transforma um requisito de negócio em especificação, planeja o trabalho, despacha agentes especializados e produz uma mudança pronta para implementação por meio de validação e pull requests.",
-          "architecture": "Um pipeline que vai da captura de requisito à especificação, planejamento, despacho de agentes especializados, implementação, validação e pull request — coordenado por orquestração de agentes, com context engineering e fluxos baseados em git.",
-          "decisions": "Especificação como fonte de verdade; agentes especializados em vez de um agente monolítico; portões de revisão e validação automatizados; git e pull requests como interface de colaboração.",
-          "challenges": "Manter as mudanças geradas consistentes, dar a cada agente o contexto certo e preservar a qualidade por meio de validação automatizada.",
-          "tradeoffs": "Equilibrar autonomia do agente contra rigor de validação, tamanho do contexto contra relevância, e velocidade de geração contra correção."
-        }
+          "Fluxos de Git"
+        ]
       },
       {
         "name": "MARK1 — AI Technical Support Agent",
         "category": "Agentic AI · RAG · Enterprise Software",
-        "description": "Um AI agent que investiga chamados de suporte técnico de ponta a ponta — transformando documentação dispersa, tickets de suporte e código-fonte legado em respostas técnicas fundamentadas.",
-        "status": "development",
-        "tagline": "Um fluxo agentic que investiga chamados de suporte em documentação, tickets e código.",
-        "flow": [
-          "Ticket de Suporte",
-          "Orquestrador de Agentes",
-          { "label": "Fontes de Conhecimento", "items": ["Documentação", "Tickets", "Codebase"] },
-          "Recuperação Híbrida",
-          "Análise de Código / Dependências",
-          "LLM",
-          "Resposta Técnica"
+        "problem": "O suporte técnico exige investigar tickets, documentação e código-fonte legado em fontes de conhecimento desconectadas.",
+        "solution": "Um AI technical support agent que investiga um chamado em documentação, tickets e código — produzindo uma resposta técnica fundamentada.",
+        "before": {
+          "flow": [
+            "Ticket",
+            "Investigação manual",
+            "Busca em documentação",
+            "Investigação de código-fonte",
+            "Especialista",
+            "Resposta"
+          ]
+        },
+        "after": {
+          "flow": [
+            "Ticket",
+            "AI Agent",
+            { "label": "Fontes de Conhecimento", "items": ["Documentação", "Tickets", "Codebase"] },
+            "Recuperação",
+            "Análise de Dependências",
+            "Resposta Técnica"
+          ]
+        },
+        "impact": [
+          "Menos esforço de investigação",
+          "Acesso mais rápido ao contexto técnico",
+          "Recuperação centralizada de conhecimento",
+          "Mais consistência no suporte",
+          "Aceleração da análise técnica"
         ],
-        "concepts": [
-          "Agentic workflow",
+        "metrics": [
+          { "outcome": "Reduzir o tempo de investigação", "metric": "Tempo médio de investigação" },
+          { "outcome": "Melhorar a qualidade da resposta", "metric": "Answer accuracy / retrieval quality" }
+        ],
+        "tech": [
+          "LangGraph",
           "RAG",
-          "Recuperação híbrida",
           "BM25",
           "Busca vetorial",
           "Análise de código",
           "Grafos de dependência",
-          "Orquestração de agentes",
-          "LangGraph",
           "Avaliação",
           "Observabilidade"
-        ],
-        "caseStudy": {
-          "problem": "O suporte técnico em software enterprise exige investigar documentação dispersa, tickets históricos e código legado — um processo lento e intensivo em conhecimento que raramente tem uma única resposta óbvia.",
-          "product": "Um AI technical support agent que investiga um chamado de ponta a ponta, combinando recuperação entre documentação, tickets e codebase com análise de dependências para produzir uma resposta técnica fundamentada.",
-          "architecture": "Um orquestrador de agentes construído com LangGraph coordena recuperação híbrida (BM25 + busca vetorial) sobre documentação, tickets e código, realiza análise de código e dependências e produz uma resposta LLM fundamentada — com avaliação e observabilidade.",
-          "decisions": "Orquestração de agentes via LangGraph; recuperação híbrida (BM25 + vetorial) em vez de um único caminho de recuperação; análise de dependências para entender relações no código; fundamentar respostas em evidências recuperadas.",
-          "challenges": "Qualidade da recuperação entre fontes heterogêneas, fundamentação para evitar alucinação e entendimento de dependências de código legado.",
-          "tradeoffs": "Latência de recuperação versus qualidade da resposta; cobertura da busca híbrida versus complexidade do índice; autonomia do agente versus controle."
-        }
+        ]
       },
       {
         "name": "Luna — Enterprise AI Knowledge Platform",
         "category": "AI Product Architecture · Multi-tenant AI",
-        "description": "Uma plataforma de IA multi-tenant que transforma o conhecimento organizacional em capacidades de IA sensíveis ao contexto — conectando documentos, reuniões, incidentes e sistemas em respostas fundamentadas e governadas.",
-        "status": "development",
-        "tagline": "Arquitetura de produto / conceito de plataforma / em desenvolvimento",
-        "flow": [
-          { "label": "Conhecimento Organizacional", "items": ["Documentos", "Reuniões", "Incidentes", "APIs", "Integrações"] },
-          "Camada de Conhecimento",
-          "RAG",
-          "Agentes",
-          "Aplicações de Negócio"
+        "problem": "O conhecimento organizacional está distribuído entre documentos, reuniões, incidentes, sistemas e integrações.",
+        "solution": "Uma plataforma multi-tenant que consolida o conhecimento organizacional em uma camada de conhecimento e o expõe por meio de AI agents fundamentados.",
+        "before": {
+          "flow": [
+            { "label": "Fontes", "items": ["Documentos", "Reuniões", "Incidentes", "Sistemas"] },
+            "Conhecimento fragmentado"
+          ]
+        },
+        "after": {
+          "flow": [
+            "Conhecimento Organizacional",
+            "Camada de Conhecimento",
+            "RAG",
+            "AI Agents",
+            "Aplicações de Negócio"
+          ]
+        },
+        "impact": [
+          "Contexto organizacional unificado",
+          "Assistência de IA contextual",
+          "Conhecimento enterprise reutilizável",
+          "IA multi-tenant controlada",
+          "Melhor acesso ao conhecimento institucional"
         ],
-        "concepts": [
+        "tech": [
           "Multi-tenancy",
-          "Gestão de conhecimento",
           "RAG",
-          "AI Agents",
           "LangGraph",
           "Qdrant",
-          "Observabilidade",
           "Governança",
           "LGPD / Privacy by Design",
           "Integrações"
-        ],
-        "caseStudy": {
-          "problem": "O conhecimento organizacional está fragmentado entre documentos, reuniões, incidentes, APIs e integrações, e não consegue ser transformado em capacidades de IA confiáveis em escala enterprise.",
-          "product": "Uma plataforma multi-tenant que consolida o conhecimento organizacional em uma camada de conhecimento, fundamenta com RAG, expõe por meio de agentes e entrega a aplicações de negócio.",
-          "architecture": "Múltiplas fontes de ingestão alimentam uma camada de conhecimento com recuperação baseada em Qdrant e agentes LangGraph, governada por multi-tenancy, observabilidade, governança e privacy-by-design (LGPD), e exposta por meio de integrações a aplicações de negócio.",
-          "decisions": "Multi-tenancy como preocupação de primeira classe; abstração de camada de conhecimento; RAG para recuperação fundamentada; governança e privacy-by-design (LGPD) desde o início.",
-          "challenges": "Isolar tenants, governar dados e equilibrar qualidade de recuperação com requisitos de governança e privacidade.",
-          "tradeoffs": "Fidelidade do RAG versus complexidade; custo de governança versus velocidade; isolamento multi-tenant versus custo operacional."
-        }
+        ]
       },
       {
         "name": "SpecKitBasic",
         "category": "AI Product Development · Specification-Driven Development",
-        "description": "Uma abordagem leve de specification-driven development que dá aos AI coding agents contexto estruturado, regras e uma fonte única de verdade — a base por trás da orquestração da AI Software Factory.",
-        "status": "experiment",
-        "tagline": "Uma abordagem leve de specification-driven para desenvolvimento assistido por IA.",
-        "flow": [
-          "Requisito",
-          "Especificação",
-          "Arquitetura / Plano",
-          "Implementação",
-          "Validação"
+        "problem": "Assistentes de codificação com IA geram código rapidamente, mas sem contexto de produto estruturado e regras de engenharia consistentes.",
+        "solution": "Uma metodologia leve de specification-driven development que adiciona estrutura, regras e contexto antes da implementação assistida por IA — a base por trás da AI Software Factory.",
+        "before": {
+          "flow": ["Prompt", "IA", "Código"]
+        },
+        "after": {
+          "flow": [
+            "Requisito",
+            "Especificação",
+            "Regras / Contexto",
+            "Plano",
+            "Implementação",
+            "Validação"
+          ]
+        },
+        "impact": [
+          "Requisitos mais claros",
+          "Contexto mais forte",
+          "Implementação mais consistente",
+          "Rastreabilidade aprimorada",
+          "Desenvolvimento assistido por IA repetível"
         ],
-        "concepts": [
+        "tech": [
           "Specification-driven development",
-          "Desenvolvimento assistido por IA",
           "Gestão de contexto",
           "Regras",
           "Requisitos estruturados",
           "Consistência de engenharia"
-        ],
-        "caseStudy": {
-          "problem": "O desenvolvimento assistido por IA se torna imprevisível sem uma fonte de verdade clara e estruturada do que deve ser construído.",
-          "product": "Um fluxo de trabalho enxuto em que um requisito vira especificação, orienta uma arquitetura/plano e guia a implementação e a validação — a base leve sobre a qual a AI Software Factory se constrói.",
-          "architecture": "Um pipeline mínimo de requisito a especificação, plano, implementação e validação, focado em contexto estruturado e regras em vez de ferramentas pesadas.",
-          "decisions": "Especificação como fonte de verdade; regras leves; requisitos estruturados; priorizar consistência em vez de amplitude de automação.",
-          "challenges": "Gerenciar contexto com eficiência e manter os requisitos estruturados o suficiente para um desenvolvimento assistido por IA confiável.",
-          "tradeoffs": "Simplicidade versus capacidade; estrutura versus velocidade de iteração."
-        }
+        ]
       },
       {
         "name": "Enterprise MCP Platform",
         "category": "AI Infrastructure · Enterprise Integration",
-        "description": "Uma exploração de como sistemas enterprise podem se tornar utilizáveis por AI agents com segurança — um conceito de plataforma para expor APIs e capacidades enterprise por meio de MCP com segurança, governança e controle de acesso.",
-        "status": "concept",
-        "tagline": "Conceito de plataforma · exploração de infraestrutura de IA",
-        "flow": [
-          "APIs Enterprise",
-          "Camada MCP",
-          "Segurança · Governança · Controle de Acesso",
-          "AI Agents"
+        "problem": "APIs e capacidades de negócio enterprise são difíceis de consumir por AI agents com segurança e consistência.",
+        "solution": "Um conceito de plataforma que expõe APIs enterprise a AI agents por meio de MCP, com segurança, governança e controle de acesso.",
+        "before": {
+          "flow": [
+            "AI Agent",
+            "Múltiplas APIs",
+            "Autenticação diferente",
+            "Contratos diferentes",
+            "Complexidade de governança"
+          ]
+        },
+        "after": {
+          "flow": [
+            "APIs Enterprise",
+            "Plataforma MCP",
+            "Segurança / Governança",
+            "AI Agents"
+          ]
+        },
+        "impact": [
+          "Acesso padronizado para agentes",
+          "Exposição controlada de APIs",
+          "Governança centralizada",
+          "Integrações reutilizáveis",
+          "Adoção enterprise de IA mais segura"
         ],
-        "concepts": [
+        "tech": [
           "MCP",
           "Abstração de API",
-          "Integrações enterprise",
           "Controle de acesso",
           "Governança de dados",
           "Segurança",
           "Habilitação de AI agents"
-        ],
-        "caseStudy": {
-          "problem": "AI agents precisam de acesso a capacidades enterprise, mas expor APIs diretamente cria riscos de segurança, controle de acesso e governança.",
-          "product": "Uma plataforma que abstrai APIs e capacidades enterprise por trás do MCP, para que AI agents possam ser habilitados com segurança e consistência.",
-          "architecture": "APIs enterprise são expostas por meio de uma camada MCP com segurança, governança e controle de acesso, e então consumidas por AI agents.",
-          "decisions": "MCP como interface padrão; abstração de API; controle de acesso e governança como capacidades da plataforma; habilitar agentes sem exposição direta de APIs.",
-          "challenges": "Proteger o acesso dos agentes, governar dados e manter integrações consistentes em toda a empresa.",
-          "tradeoffs": "Rigor de segurança versus flexibilidade dos agentes; abstração versus fidelidade de integração."
-        }
+        ]
       }
+    ]
+  },
+  "approach": {
+    "kicker": "Metodologia",
+    "title": "Como eu construo produtos de IA",
+    "message": "Produtos de IA não são construídos escolhendo primeiro um LLM. São construídos entendendo o problema, definindo o resultado, desenhando a experiência certa, escolhendo a arquitetura de IA adequada, validando a qualidade e medindo o impacto no produto.",
+    "steps": [
+      { "id": "01", "title": "Compreender", "description": "Problema de negócio" },
+      { "id": "02", "title": "Descobrir", "description": "Usuários / fluxos" },
+      { "id": "03", "title": "Definir", "description": "Oportunidade + resultado" },
+      { "id": "04", "title": "Priorizar", "description": "Valor / esforço / risco" },
+      { "id": "05", "title": "Desenhar", "description": "Experiência do produto de IA" },
+      { "id": "06", "title": "Arquitetar", "description": "Solução de IA" },
+      { "id": "07", "title": "Construir", "description": "Protótipo / MVP" },
+      { "id": "08", "title": "Avaliar", "description": "Métricas de produto + IA" },
+      { "id": "09", "title": "Lançar", "description": "Produção" },
+      { "id": "10", "title": "Medir", "description": "Resultado" },
+      { "id": "11", "title": "Iterar", "description": "Melhoria do produto" }
+    ]
+  },
+  "measure": {
+    "kicker": "Como eu meço",
+    "title": "Como eu meço produtos de IA",
+    "chainLabel": "O sucesso de produto é mensurável",
+    "chain": [
+      { "label": "Resultado de negócio", "example": "Reduzir o esforço de suporte" },
+      { "label": "KPI de produto", "example": "Tempo de resolução" },
+      { "label": "Qualidade de IA", "example": "Taxa de sucesso do agente" },
+      { "label": "Performance técnica", "example": "Latência" },
+      { "label": "Custo", "example": "Custo / ticket resolvido" }
+    ],
+    "okrTitle": "OKR ilustrativo",
+    "objectiveLabel": "Objetivo",
+    "objective": "Melhorar a eficiência do suporte técnico",
+    "keyResultsLabel": "Key Results",
+    "keyResults": [
+      "Reduzir o tempo médio de investigação",
+      "Aumentar a qualidade da primeira resposta",
+      "Aumentar a taxa de resolução de tickets",
+      "Reduzir a intervenção humana desnecessária"
+    ],
+    "metricGroups": [
+      { "label": "Métricas de produto", "items": ["Conclusão de tarefa", "Adoção pelo usuário", "Time-to-value"] },
+      { "label": "Métricas de IA", "items": ["Answer accuracy", "Retrieval quality", "Agent success rate"] },
+      { "label": "Métricas técnicas", "items": ["Latência", "Custo / interação", "Confiabilidade"] }
+    ],
+    "disclaimer": "Exemplo ilustrativo — uma forma de pensar, não resultados medidos."
+  },
+  "prioritization": {
+    "kicker": "Priorização",
+    "title": "Como eu priorizo oportunidades de IA",
+    "formulaTop": ["VALOR", "IMPACTO NO CLIENTE", "FIT ESTRATÉGICO"],
+    "formulaBottom": "ESFORÇO + RISCO",
+    "criteria": [
+      "Valor de negócio",
+      "Impacto no cliente",
+      "Viabilidade",
+      "Adequação à IA",
+      "Custo",
+      "Risco",
+      "Alinhamento estratégico"
     ]
   },
   "thinking": {
@@ -345,20 +356,108 @@
     "bottom": "COMPLEXIDADE",
     "diagramCaption": "Eu avalio decisões de produto de IA como trade-offs de produto, não como decisões puramente técnicas."
   },
-  "approach": {
-    "kicker": "Metodologia",
-    "title": "Como eu construo produtos de IA",
-    "message": "Produtos de IA não são construídos escolhendo primeiro um LLM. São construídos entendendo o problema, desenhando a experiência certa, escolhendo a arquitetura de IA adequada, validando a qualidade e medindo o impacto no produto.",
-    "steps": [
-      { "id": "01", "title": "Compreender", "description": "Problema de negócio" },
-      { "id": "02", "title": "Descobrir", "description": "Usuários / fluxos / dores" },
-      { "id": "03", "title": "Definir", "description": "Oportunidade de produto" },
-      { "id": "04", "title": "Desenhar", "description": "Experiência de IA" },
-      { "id": "05", "title": "Arquitetar", "description": "Solução técnica" },
-      { "id": "06", "title": "Prototipar", "description": "Validar hipóteses" },
-      { "id": "07", "title": "Avaliar", "description": "Qualidade / custo / latência" },
-      { "id": "08", "title": "Lançar", "description": "Produção" },
-      { "id": "09", "title": "Medir", "description": "Impacto no produto" }
+  "capabilities": {
+    "kicker": "Competências",
+    "title": "Com o que eu trabalho",
+    "subtitle": "Product management em primeiro lugar — apoiado por design de IA, arquitetura e engenharia.",
+    "expandLabel": "Ver detalhes",
+    "collapseLabel": "Ocultar detalhes",
+    "areas": [
+      {
+        "id": "01",
+        "title": "Produto",
+        "summary": "Estratégia · Discovery · Roadmaps · OKRs · KPIs · Priorização · MVP · Product Analytics",
+        "details": [
+          "Visão de Produto",
+          "Estratégia de Produto",
+          "Product Discovery",
+          "Estruturação de Problemas",
+          "Avaliação de Oportunidade",
+          "Product-Market Fit",
+          "MVP",
+          "Roadmaps",
+          "Priorização",
+          "Ciclo de Vida do Produto",
+          "OKRs",
+          "KPIs",
+          "Métricas de Produto",
+          "North Star Metric",
+          "Adoção / Ativação / Engajamento",
+          "Retenção / Conversão",
+          "Time-to-Value",
+          "Cost-to-Serve"
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Produto de IA",
+        "summary": "Agents · RAG · AI UX · Avaliação · Human-in-the-loop · Governança de IA",
+        "details": [
+          "Produtos de IA Generativa",
+          "AI Agents",
+          "Agentic Workflows",
+          "Produtos RAG",
+          "AI UX",
+          "Human-in-the-loop",
+          "Avaliação de IA",
+          "Answer accuracy / Retrieval quality",
+          "Trade-offs de Accuracy / Latency / Cost",
+          "Adoção de IA",
+          "Governança de IA",
+          "IA Responsável"
+        ]
+      },
+      {
+        "id": "03",
+        "title": "Arquitetura",
+        "summary": "LLMs · Arquitetura de Agentes · MCP · Integrações · Segurança · Governança",
+        "details": [
+          "Arquitetura de LLM",
+          "Arquitetura RAG",
+          "Arquitetura de Agentes",
+          "Sistemas Multi-agente",
+          "MCP",
+          "APIs",
+          "Integrações Enterprise",
+          "Arquitetura de Dados",
+          "Multi-tenancy",
+          "Segurança",
+          "Observabilidade",
+          "FinOps"
+        ]
+      },
+      {
+        "id": "04",
+        "title": "Engenharia",
+        "summary": "Python · LangGraph · LangChain · APIs · Dados · Docker · Git",
+        "details": [
+          "Python",
+          "LangGraph",
+          "LangChain",
+          "LLMs",
+          "RAG",
+          "Bancos Vetoriais",
+          "Qdrant",
+          "Chroma",
+          "MCP",
+          "APIs",
+          "Docker",
+          "SQL",
+          "Git",
+          "Desenvolvimento assistido por IA"
+        ]
+      }
+    ]
+  },
+  "intersection": {
+    "kicker": "Arquitetura",
+    "title": "Onde produto, IA e sistemas se encontram",
+    "center": "PRODUTOS DE IA",
+    "message": "Minha força é atuar na interseção de produto, IA e engenharia — traduzindo oportunidades de negócio em produtos de IA tecnicamente viáveis.",
+    "circles": [
+      { "title": "PRODUTO", "items": ["Estratégia", "Discovery", "Roadmap", "Métricas"] },
+      { "title": "IA", "items": ["LLMs", "Agents", "RAG", "MCP"] },
+      { "title": "ARQUITETURA", "items": ["Sistemas", "Integração", "Segurança", "Governança"] }
     ]
   },
   "experience": {
@@ -378,12 +477,12 @@
       { "title": "Frameworks", "items": "LangGraph · LangChain" },
       { "title": "Dados", "items": "Qdrant · Chroma · SQL" },
       { "title": "Engenharia", "items": "Python · Delphi · Java · C# · APIs · Docker · Git" },
-      { "title": "Produto", "items": "Estratégia de Produto · Discovery · Roadmaps · Agile · Jira" }
+      { "title": "Produto", "items": "Estratégia de Produto · Discovery · Roadmaps · OKRs · Agile · Jira" }
     ]
   },
   "cta": {
     "title": "Explorar, construir, iterar.",
-    "text": "Estou continuamente explorando como a IA pode se tornar produtos úteis, sistemas confiáveis e melhores formas de resolver problemas complexos.",
+    "text": "Estou continuamente explorando como a IA pode se tornar produtos úteis e mensuráveis — e os sistemas por trás deles.",
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "email": "Email"

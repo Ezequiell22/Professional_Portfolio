@@ -4,7 +4,7 @@ import Reveal from "./Reveal";
 
 export default function ProductApproach({ t }: { t: Dictionary }) {
   return (
-    <section id="approach" className="scroll-mt-24 py-24 md:py-32">
+    <section id="approach" className="scroll-mt-24 border-t border-border bg-surface/40 py-24 md:py-32">
       <Container>
         <Reveal>
           <SectionHeading kicker={t.approach.kicker} title={t.approach.title} />

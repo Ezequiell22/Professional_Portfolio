@@ -6,7 +6,7 @@ export default function Experience({ t }: { t: Dictionary }) {
   const e = t.experience;
 
   return (
-    <section id="about" className="scroll-mt-24 py-24 md:py-32">
+    <section id="about" className="scroll-mt-24 border-t border-border bg-surface/40 py-24 md:py-32">
       <Container>
         <div className="grid gap-12 lg:grid-cols-[1.2fr_1fr] lg:items-start">
           <Reveal>

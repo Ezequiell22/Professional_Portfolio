@@ -7,7 +7,7 @@ export default function Projects({ t }: { t: Dictionary }) {
   return (
     <section
       id="work"
-      className="scroll-mt-24 border-t border-border bg-surface/40 py-24 md:py-32"
+      className="scroll-mt-24 py-24 md:py-32"
     >
       <Container>
         <Reveal>

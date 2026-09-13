@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Ezequiel Menegas — AI Product Manager | AI Solutions Architecture",
-    "description": "AI Product Manager combining product strategy, AI solutions architecture and engineering to build intelligent products from idea to production.",
+    "description": "AI Product Manager combining product strategy, AI product design and technical depth to turn business problems into measurable AI products.",
     "ogTitle": "Ezequiel Menegas — AI Product Manager",
-    "ogDescription": "Product strategy, AI solutions architecture and hands-on engineering, combined to turn complex business problems into practical AI products."
+    "ogDescription": "I turn complex business problems into measurable AI products — combining product strategy, AI architecture and engineering."
   },
   "nav": {
     "logo": "Ezequiel",
@@ -20,298 +20,309 @@
   },
   "hero": {
     "role": "AI Product Manager",
-    "eyebrow": "AI Product Management · AI Solutions Architecture · AI Engineering",
-    "title": "Building intelligent products from business problems to working systems.",
-    "subtitle": "I work at the intersection of product strategy, AI architecture and engineering — exploring how emerging AI capabilities can become useful, reliable and scalable products.",
+    "eyebrow": "Product Strategy · AI Product Design · AI Solutions Architecture · AI Engineering",
+    "title": "I turn complex business problems into measurable AI products.",
+    "subtitle": "AI Product Manager working across product strategy, AI product design and engineering — defining outcomes, designing the product, and building the systems that deliver them.",
     "primaryCta": "Explore my work",
     "secondaryCta": "View on GitHub"
   },
-  "capabilities": {
-    "kicker": "Capabilities",
-    "title": "What I work with",
-    "subtitle": "Four areas I combine across product, AI, architecture and engineering — demonstrated through the work above.",
-    "expandLabel": "Explore details",
-    "collapseLabel": "Hide details",
-    "areas": [
-      {
-        "id": "01",
-        "title": "Product",
-        "summary": "Strategy · Discovery · Roadmaps · Prioritization · Metrics",
-        "details": [
-          "Product Strategy",
-          "Product Discovery",
-          "Problem Framing",
-          "Roadmaps & Prioritization",
-          "MVP Definition",
-          "Product Requirements",
-          "User Stories",
-          "Product Metrics",
-          "Stakeholder Management",
-          "Agile / Scrum",
-          "Product × Engineering"
-        ]
-      },
-      {
-        "id": "02",
-        "title": "AI",
-        "summary": "LLMs · Agents · RAG · Evaluation · AI UX",
-        "details": [
-          "Generative AI Products",
-          "AI Agents",
-          "Agentic Workflows",
-          "RAG Products",
-          "AI UX",
-          "Human-in-the-loop",
-          "AI Evaluation",
-          "Accuracy / Latency / Cost trade-offs",
-          "AI Governance",
-          "Responsible AI"
-        ]
-      },
-      {
-        "id": "03",
-        "title": "Architecture",
-        "summary": "Systems · Integrations · MCP · Security · Governance",
-        "details": [
-          "LLM Architecture",
-          "RAG Architecture",
-          "Agent Architecture",
-          "Multi-agent Systems",
-          "MCP",
-          "APIs",
-          "Enterprise Integrations",
-          "Data Architecture",
-          "Multi-tenancy",
-          "Security",
-          "Observability",
-          "FinOps"
-        ]
-      },
-      {
-        "id": "04",
-        "title": "Engineering",
-        "summary": "Python · LangGraph · LangChain · APIs · Data · Cloud/DevOps",
-        "details": [
-          "Python",
-          "LangGraph",
-          "LangChain",
-          "LLMs",
-          "RAG",
-          "Vector Databases",
-          "Qdrant",
-          "Chroma",
-          "MCP",
-          "APIs",
-          "Docker",
-          "SQL",
-          "Git",
-          "AI-assisted development"
-        ]
-      }
-    ]
-  },
-  "intersection": {
-    "kicker": "Architecture",
-    "title": "Where product, AI and systems meet",
-    "center": "AI PRODUCTS",
-    "message": "My strength is operating at the intersection of product, AI and engineering — translating business opportunities into technically viable AI products.",
-    "circles": [
-      { "title": "PRODUCT", "items": ["Strategy", "Discovery", "Roadmap", "Metrics"] },
-      { "title": "AI", "items": ["LLMs", "Agents", "RAG", "MCP"] },
-      { "title": "ARCHITECTURE", "items": ["Systems", "Integration", "Security", "Governance"] }
-    ]
+  "productManagement": {
+    "kicker": "AI Product Management",
+    "title": "AI Product Management",
+    "subtitle": "From problem discovery to measurable product outcomes.",
+    "lifecycle": [
+      "PROBLEM",
+      "DISCOVERY",
+      "OPPORTUNITY",
+      "PRODUCT VISION",
+      "MVP",
+      "AI EXPERIENCE",
+      "ARCHITECTURE",
+      "DELIVERY",
+      "MEASURE",
+      "ITERATE"
+    ],
+    "statement": "I don't treat AI as a feature to be added to an existing product. I start with the user problem, define the desired outcome, determine where AI creates leverage, and design the product and architecture around that outcome."
   },
   "work": {
-    "kicker": "Selected Work",
-    "title": "Selected Work",
-    "subtitle": "AI products, platforms and engineering systems I am building and exploring.",
-    "statusLabel": "Status",
-    "flowLabel": "Flow",
-    "conceptsLabel": "Concepts",
-    "caseStudyLabel": "View case study",
-    "caseStudyClose": "Close case study",
+    "kicker": "Selected Product Cases",
+    "title": "Selected Product Cases",
+    "subtitle": "AI products and systems designed around real business problems.",
+    "completedLabel": "Completed",
     "featuredLabel": "Featured",
-    "sections": {
+    "labels": {
       "problem": "Problem",
-      "product": "Product",
-      "architecture": "Architecture",
-      "decisions": "Product decisions",
-      "challenges": "AI challenges",
-      "tradeoffs": "Trade-offs"
-    },
-    "statuses": {
-      "concept": "Concept",
-      "prototype": "Prototype",
-      "development": "In Development",
-      "experiment": "Experiment",
-      "production": "Production"
+      "solution": "Solution",
+      "before": "Before",
+      "after": "After",
+      "impact": "Impact",
+      "metricsToMeasure": "Metrics to measure",
+      "aiArchitecture": "AI / Architecture"
     },
     "projects": [
       {
         "name": "AI Software Factory",
         "category": "AI Product Engineering · Agentic Software Development",
-        "description": "An AI-native approach to software product development — an orchestration platform that turns product requirements into implementation-ready software changes through specifications, specialist agents and engineering workflows.",
-        "status": "development",
         "featured": true,
-        "tagline": "An AI-native approach to software product development.",
-        "flow": [
-          "Business Requirement",
-          "Specification",
-          "Planning",
-          "Specialist Agents",
-          "Implementation",
-          "Validation",
-          "Pull Request"
+        "problem": "Software development assisted by AI can become inconsistent when requirements, context, architecture and implementation decisions are not structured.",
+        "solution": "An orchestration workflow that structures the path from product requirement to implementation — through specification, planning, specialist agents, validation and pull requests.",
+        "before": {
+          "flow": ["Requirement", "Developer / AI assistant", "Code"],
+          "notes": [
+            "Fragmented context",
+            "Inconsistent specifications",
+            "Difficult validation",
+            "Weak traceability",
+            "Repetitive engineering decisions"
+          ]
+        },
+        "after": {
+          "flow": [
+            "Product Requirement",
+            "Specification",
+            "Planning",
+            "Specialist AI Agents",
+            "Implementation",
+            "Validation / Review",
+            "Pull Request"
+          ]
+        },
+        "impact": [
+          "Structured product-to-engineering flow",
+          "Improved traceability",
+          "Better context management",
+          "Repeatable development process",
+          "Reduced friction between requirements and implementation"
         ],
-        "concepts": [
+        "metrics": [
+          { "outcome": "Reduce requirement-to-implementation friction", "metric": "Time from requirement to implementation-ready change" },
+          { "outcome": "Improve engineering consistency", "metric": "Review rework rate" }
+        ],
+        "tech": [
           "Agent orchestration",
           "Specification-driven development",
           "Context engineering",
-          "AI-assisted development",
           "Software architecture",
           "Automated review",
-          "Engineering workflows"
-        ],
-        "caseStudy": {
-          "problem": "Bridging the gap between product requirements and high-quality implementation changes — reducing the friction, inconsistency and review overhead that slow down AI-assisted development.",
-          "product": "An orchestration platform that turns a business requirement into a specification, plans the work, dispatches specialist agents, and produces an implementation-ready change through validation and pull requests.",
-          "architecture": "A pipeline from requirement intake to specification, planning, specialist-agent dispatch, implementation, validation and pull request — coordinated by agent orchestration, with context engineering and git-based workflows.",
-          "decisions": "Specification as the source of truth; specialist agents over a single monolithic agent; automated review and validation gates; git and pull requests as the collaboration interface.",
-          "challenges": "Keeping generated changes consistent, giving each agent the right context, and maintaining quality through automated validation.",
-          "tradeoffs": "Balancing agent autonomy against validation rigor, context size against relevance, and generation speed against correctness."
-        }
+          "Git workflows"
+        ]
       },
       {
         "name": "MARK1 — AI Technical Support Agent",
         "category": "Agentic AI · RAG · Enterprise Software",
-        "description": "An AI agent that investigates technical support requests end to end — turning scattered documentation, support tickets and legacy source code into grounded technical answers.",
-        "status": "development",
-        "tagline": "An agentic workflow that investigates support requests across documentation, tickets and code.",
-        "flow": [
-          "Support Ticket",
-          "Agent Orchestrator",
-          { "label": "Knowledge Sources", "items": ["Documentation", "Tickets", "Codebase"] },
-          "Hybrid Retrieval",
-          "Code / Dependency Analysis",
-          "LLM",
-          "Technical Answer"
+        "problem": "Technical support requires investigating tickets, documentation and legacy source code across disconnected knowledge sources.",
+        "solution": "An AI technical support agent that investigates a request across documentation, tickets and code — producing a grounded technical answer.",
+        "before": {
+          "flow": [
+            "Ticket",
+            "Manual investigation",
+            "Documentation search",
+            "Source code investigation",
+            "Specialist",
+            "Answer"
+          ]
+        },
+        "after": {
+          "flow": [
+            "Ticket",
+            "AI Agent",
+            { "label": "Knowledge Sources", "items": ["Documentation", "Tickets", "Codebase"] },
+            "Retrieval",
+            "Dependency Analysis",
+            "Technical Answer"
+          ]
+        },
+        "impact": [
+          "Reduced investigation effort",
+          "Faster access to technical context",
+          "Centralized knowledge retrieval",
+          "Better support consistency",
+          "Acceleration of technical analysis"
         ],
-        "concepts": [
-          "Agentic workflow",
+        "metrics": [
+          { "outcome": "Reduce investigation time", "metric": "Average investigation time" },
+          { "outcome": "Improve answer quality", "metric": "Answer accuracy / retrieval quality" }
+        ],
+        "tech": [
+          "LangGraph",
           "RAG",
-          "Hybrid retrieval",
           "BM25",
           "Vector search",
           "Code analysis",
           "Dependency graphs",
-          "Agent orchestration",
-          "LangGraph",
           "Evaluation",
           "Observability"
-        ],
-        "caseStudy": {
-          "problem": "Technical support in enterprise software requires investigating scattered documentation, historical tickets and legacy code — a slow, knowledge-intensive process that rarely has a single obvious answer.",
-          "product": "An AI technical support agent that investigates a request end to end, combining retrieval across documentation, tickets and codebase with dependency analysis to produce a grounded technical answer.",
-          "architecture": "An agent orchestrator built with LangGraph coordinates hybrid retrieval (BM25 + vector search) over documentation, tickets and code, performs code and dependency analysis, and produces a grounded LLM response — with evaluation and observability.",
-          "decisions": "Agent orchestration via LangGraph; hybrid retrieval (BM25 + vector) instead of a single retrieval path; dependency analysis to understand code relationships; grounding answers in retrieved evidence.",
-          "challenges": "Retrieval quality across heterogeneous sources, grounding to avoid hallucination, and understanding legacy code dependencies.",
-          "tradeoffs": "Retrieval latency versus answer quality; hybrid search coverage versus index complexity; agent autonomy versus control."
-        }
+        ]
       },
       {
         "name": "Luna — Enterprise AI Knowledge Platform",
         "category": "AI Product Architecture · Multi-tenant AI",
-        "description": "A multi-tenant AI platform that turns organizational knowledge into context-aware AI capabilities — connecting documents, meetings, incidents and systems into grounded, governed answers.",
-        "status": "development",
-        "tagline": "Product architecture / platform concept / ongoing development",
-        "flow": [
-          { "label": "Organizational Knowledge", "items": ["Documents", "Meetings", "Incidents", "APIs", "Integrations"] },
-          "Knowledge Layer",
-          "RAG",
-          "Agents",
-          "Business Applications"
+        "problem": "Organizational knowledge is distributed across documents, meetings, incidents, systems and integrations.",
+        "solution": "A multi-tenant platform that consolidates organizational knowledge into a knowledge layer and exposes it through grounded AI agents.",
+        "before": {
+          "flow": [
+            { "label": "Sources", "items": ["Documents", "Meetings", "Incidents", "Systems"] },
+            "Fragmented knowledge"
+          ]
+        },
+        "after": {
+          "flow": [
+            "Organizational Knowledge",
+            "Knowledge Layer",
+            "RAG",
+            "AI Agents",
+            "Business Applications"
+          ]
+        },
+        "impact": [
+          "Unified organizational context",
+          "Contextual AI assistance",
+          "Reusable enterprise knowledge",
+          "Controlled multi-tenant AI",
+          "Improved access to institutional knowledge"
         ],
-        "concepts": [
+        "tech": [
           "Multi-tenancy",
-          "Knowledge management",
           "RAG",
-          "AI Agents",
           "LangGraph",
           "Qdrant",
-          "Observability",
           "Governance",
           "LGPD / Privacy by Design",
           "Integrations"
-        ],
-        "caseStudy": {
-          "problem": "Organizational knowledge is fragmented across documents, meetings, incidents, APIs and integrations, and cannot be turned into reliable AI capabilities at enterprise scale.",
-          "product": "A multi-tenant platform that consolidates organizational knowledge into a knowledge layer, grounds it with RAG, exposes it through agents, and delivers it to business applications.",
-          "architecture": "Multiple ingestion sources feed a knowledge layer with Qdrant-based retrieval and LangGraph agents, governed by multi-tenancy, observability, governance and privacy-by-design (LGPD), and exposed through integrations to business applications.",
-          "decisions": "Multi-tenancy as a first-class concern; a knowledge layer abstraction; RAG for grounded retrieval; governance and privacy-by-design (LGPD) from the start.",
-          "challenges": "Isolating tenants, governing data, and balancing retrieval quality with governance and privacy requirements.",
-          "tradeoffs": "RAG fidelity versus complexity; governance overhead versus speed; multi-tenant isolation versus operational cost."
-        }
+        ]
       },
       {
         "name": "SpecKitBasic",
         "category": "AI Product Development · Specification-Driven Development",
-        "description": "A lightweight specification-driven approach that gives AI coding agents structured context, rules and a single source of truth — the foundation behind the AI Software Factory orchestration.",
-        "status": "experiment",
-        "tagline": "A lightweight specification-driven approach to AI-assisted development.",
-        "flow": [
-          "Requirement",
-          "Specification",
-          "Architecture / Plan",
-          "Implementation",
-          "Validation"
+        "problem": "AI coding assistants can generate code quickly but lack structured product context and consistent engineering rules.",
+        "solution": "A lightweight specification-driven methodology that adds structure, rules and context before AI-assisted implementation — the foundation behind the AI Software Factory.",
+        "before": {
+          "flow": ["Prompt", "AI", "Code"]
+        },
+        "after": {
+          "flow": [
+            "Requirement",
+            "Specification",
+            "Rules / Context",
+            "Plan",
+            "Implementation",
+            "Validation"
+          ]
+        },
+        "impact": [
+          "Better requirement clarity",
+          "Stronger context",
+          "More consistent implementation",
+          "Improved traceability",
+          "Repeatable AI-assisted development"
         ],
-        "concepts": [
+        "tech": [
           "Specification-driven development",
-          "AI-assisted development",
           "Context management",
           "Rules",
           "Structured requirements",
           "Engineering consistency"
-        ],
-        "caseStudy": {
-          "problem": "AI-assisted development becomes unpredictable without a clear, structured source of truth for what should be built.",
-          "product": "A lean workflow where a requirement becomes a specification, drives an architecture/plan, and guides implementation and validation — the lightweight foundation the AI Software Factory builds on.",
-          "architecture": "A minimal pipeline from requirement to specification to plan to implementation to validation, focused on structured context and rules rather than heavy tooling.",
-          "decisions": "Specification as the source of truth; lightweight rules; structured requirements; prioritizing consistency over breadth of automation.",
-          "challenges": "Managing context efficiently and keeping requirements structured enough for reliable AI-assisted development.",
-          "tradeoffs": "Simplicity versus capability; structure versus speed of iteration."
-        }
+        ]
       },
       {
         "name": "Enterprise MCP Platform",
         "category": "AI Infrastructure · Enterprise Integration",
-        "description": "An exploration of how enterprise systems can safely become usable by AI agents — a platform concept for exposing enterprise APIs and capabilities through MCP with security, governance and access control.",
-        "status": "concept",
-        "tagline": "Platform concept · AI infrastructure exploration",
-        "flow": [
-          "Enterprise APIs",
-          "MCP Layer",
-          "Security · Governance · Access Control",
-          "AI Agents"
+        "problem": "Enterprise APIs and business capabilities are difficult for AI agents to consume safely and consistently.",
+        "solution": "A platform concept that exposes enterprise APIs to AI agents through MCP, with security, governance and access control.",
+        "before": {
+          "flow": [
+            "AI Agent",
+            "Multiple APIs",
+            "Different authentication",
+            "Different contracts",
+            "Governance complexity"
+          ]
+        },
+        "after": {
+          "flow": [
+            "Enterprise APIs",
+            "MCP Platform",
+            "Security / Governance",
+            "AI Agents"
+          ]
+        },
+        "impact": [
+          "Standardized agent access",
+          "Controlled API exposure",
+          "Centralized governance",
+          "Reusable integrations",
+          "Safer enterprise AI adoption"
         ],
-        "concepts": [
+        "tech": [
           "MCP",
           "API abstraction",
-          "Enterprise integrations",
           "Access control",
           "Data governance",
           "Security",
           "AI agent enablement"
-        ],
-        "caseStudy": {
-          "problem": "AI agents need access to enterprise capabilities, but exposing APIs directly creates security, access-control and governance risk.",
-          "product": "A platform that abstracts enterprise APIs and capabilities behind MCP, so AI agents can be enabled safely and consistently.",
-          "architecture": "Enterprise APIs are exposed through an MCP layer with security, governance and access control, then consumed by AI agents.",
-          "decisions": "MCP as the standard interface; API abstraction; access control and governance as platform capabilities; enabling agents without direct API exposure.",
-          "challenges": "Securing agent access, governing data, and keeping integrations consistent across the enterprise.",
-          "tradeoffs": "Security rigor versus agent flexibility; abstraction versus integration fidelity."
-        }
+        ]
       }
+    ]
+  },
+  "approach": {
+    "kicker": "Methodology",
+    "title": "How I build AI products",
+    "message": "AI products are not built by choosing an LLM first. They are built by understanding the problem, defining the outcome, designing the right experience, choosing the appropriate AI architecture, validating quality and measuring product impact.",
+    "steps": [
+      { "id": "01", "title": "Understand", "description": "Business problem" },
+      { "id": "02", "title": "Discover", "description": "Users / workflows" },
+      { "id": "03", "title": "Define", "description": "Opportunity + outcome" },
+      { "id": "04", "title": "Prioritize", "description": "Value / effort / risk" },
+      { "id": "05", "title": "Design", "description": "AI product experience" },
+      { "id": "06", "title": "Architect", "description": "AI solution" },
+      { "id": "07", "title": "Build", "description": "Prototype / MVP" },
+      { "id": "08", "title": "Evaluate", "description": "Product + AI metrics" },
+      { "id": "09", "title": "Ship", "description": "Production" },
+      { "id": "10", "title": "Measure", "description": "Outcome" },
+      { "id": "11", "title": "Iterate", "description": "Product improvement" }
+    ]
+  },
+  "measure": {
+    "kicker": "How I measure",
+    "title": "How I measure AI products",
+    "chainLabel": "Product success is measurable",
+    "chain": [
+      { "label": "Business outcome", "example": "Reduce support effort" },
+      { "label": "Product KPI", "example": "Resolution time" },
+      { "label": "AI quality", "example": "Agent success rate" },
+      { "label": "Technical performance", "example": "Latency" },
+      { "label": "Cost", "example": "Cost / resolved ticket" }
+    ],
+    "okrTitle": "Illustrative OKR",
+    "objectiveLabel": "Objective",
+    "objective": "Improve technical support efficiency",
+    "keyResultsLabel": "Key Results",
+    "keyResults": [
+      "Reduce average investigation time",
+      "Increase first-response quality",
+      "Increase ticket resolution rate",
+      "Reduce unnecessary human intervention"
+    ],
+    "metricGroups": [
+      { "label": "Product metrics", "items": ["Task completion", "User adoption", "Time-to-value"] },
+      { "label": "AI metrics", "items": ["Answer accuracy", "Retrieval quality", "Agent success rate"] },
+      { "label": "Technical metrics", "items": ["Latency", "Cost / interaction", "Reliability"] }
+    ],
+    "disclaimer": "Illustrative example — a way of thinking, not measured results."
+  },
+  "prioritization": {
+    "kicker": "Prioritization",
+    "title": "How I prioritize AI opportunities",
+    "formulaTop": ["VALUE", "CUSTOMER IMPACT", "STRATEGIC FIT"],
+    "formulaBottom": "EFFORT + RISK",
+    "criteria": [
+      "Business value",
+      "Customer impact",
+      "Feasibility",
+      "AI suitability",
+      "Cost",
+      "Risk",
+      "Strategic alignment"
     ]
   },
   "thinking": {
@@ -345,20 +356,108 @@
     "bottom": "COMPLEXITY",
     "diagramCaption": "I evaluate AI product decisions as product trade-offs, not purely technical decisions."
   },
-  "approach": {
-    "kicker": "Methodology",
-    "title": "How I build AI products",
-    "message": "AI products are not built by choosing an LLM first. They are built by understanding the problem, designing the right experience, choosing the appropriate AI architecture, validating quality and measuring product impact.",
-    "steps": [
-      { "id": "01", "title": "Understand", "description": "Business problem" },
-      { "id": "02", "title": "Discover", "description": "Users / workflows / pain points" },
-      { "id": "03", "title": "Define", "description": "Product opportunity" },
-      { "id": "04", "title": "Design", "description": "AI experience" },
-      { "id": "05", "title": "Architect", "description": "Technical solution" },
-      { "id": "06", "title": "Prototype", "description": "Validate assumptions" },
-      { "id": "07", "title": "Evaluate", "description": "Quality / cost / latency" },
-      { "id": "08", "title": "Ship", "description": "Production" },
-      { "id": "09", "title": "Measure", "description": "Product impact" }
+  "capabilities": {
+    "kicker": "Capabilities",
+    "title": "What I work with",
+    "subtitle": "Product management first — supported by AI design, architecture and engineering.",
+    "expandLabel": "Explore details",
+    "collapseLabel": "Hide details",
+    "areas": [
+      {
+        "id": "01",
+        "title": "Product",
+        "summary": "Strategy · Discovery · Roadmaps · OKRs · KPIs · Prioritization · MVP · Product Analytics",
+        "details": [
+          "Product Vision",
+          "Product Strategy",
+          "Product Discovery",
+          "Problem Framing",
+          "Opportunity Assessment",
+          "Product-Market Fit",
+          "MVP",
+          "Roadmaps",
+          "Prioritization",
+          "Product Lifecycle",
+          "OKRs",
+          "KPIs",
+          "Product Metrics",
+          "North Star Metric",
+          "Adoption / Activation / Engagement",
+          "Retention / Conversion",
+          "Time-to-Value",
+          "Cost-to-Serve"
+        ]
+      },
+      {
+        "id": "02",
+        "title": "AI Product",
+        "summary": "Agents · RAG · AI UX · Evaluation · Human-in-the-loop · AI Governance",
+        "details": [
+          "Generative AI Products",
+          "AI Agents",
+          "Agentic Workflows",
+          "RAG Products",
+          "AI UX",
+          "Human-in-the-loop",
+          "AI Evaluation",
+          "Answer accuracy / Retrieval quality",
+          "Accuracy / Latency / Cost trade-offs",
+          "AI Adoption",
+          "AI Governance",
+          "Responsible AI"
+        ]
+      },
+      {
+        "id": "03",
+        "title": "Architecture",
+        "summary": "LLMs · Agent Architecture · MCP · Integrations · Security · Governance",
+        "details": [
+          "LLM Architecture",
+          "RAG Architecture",
+          "Agent Architecture",
+          "Multi-agent Systems",
+          "MCP",
+          "APIs",
+          "Enterprise Integrations",
+          "Data Architecture",
+          "Multi-tenancy",
+          "Security",
+          "Observability",
+          "FinOps"
+        ]
+      },
+      {
+        "id": "04",
+        "title": "Engineering",
+        "summary": "Python · LangGraph · LangChain · APIs · Data · Docker · Git",
+        "details": [
+          "Python",
+          "LangGraph",
+          "LangChain",
+          "LLMs",
+          "RAG",
+          "Vector Databases",
+          "Qdrant",
+          "Chroma",
+          "MCP",
+          "APIs",
+          "Docker",
+          "SQL",
+          "Git",
+          "AI-assisted development"
+        ]
+      }
+    ]
+  },
+  "intersection": {
+    "kicker": "Architecture",
+    "title": "Where product, AI and systems meet",
+    "center": "AI PRODUCTS",
+    "message": "My strength is operating at the intersection of product, AI and engineering — translating business opportunities into technically viable AI products.",
+    "circles": [
+      { "title": "PRODUCT", "items": ["Strategy", "Discovery", "Roadmap", "Metrics"] },
+      { "title": "AI", "items": ["LLMs", "Agents", "RAG", "MCP"] },
+      { "title": "ARCHITECTURE", "items": ["Systems", "Integration", "Security", "Governance"] }
     ]
   },
   "experience": {
@@ -378,12 +477,12 @@
       { "title": "Frameworks", "items": "LangGraph · LangChain" },
       { "title": "Data", "items": "Qdrant · Chroma · SQL" },
       { "title": "Engineering", "items": "Python · Delphi · Java · C# · APIs · Docker · Git" },
-      { "title": "Product", "items": "Product Strategy · Discovery · Roadmaps · Agile · Jira" }
+      { "title": "Product", "items": "Product Strategy · Discovery · Roadmaps · OKRs · Agile · Jira" }
     ]
   },
   "cta": {
     "title": "Explore, build, iterate.",
-    "text": "I am continuously exploring how AI can become useful products, reliable systems and better ways of solving complex problems.",
+    "text": "I am continuously exploring how AI can become useful, measurable products — and the systems behind them.",
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "email": "Email"

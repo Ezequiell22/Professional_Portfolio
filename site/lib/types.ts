@@ -1,33 +1,28 @@
 export type Lang = "en" | "pt-BR";
 
-export type StatusKey =
-  | "concept"
-  | "prototype"
-  | "development"
-  | "experiment"
-  | "production";
-
 export type FlowStep = string | { label: string; items: string[] };
 
-export interface ProjectCaseStudy {
-  problem: string;
-  product: string;
-  architecture: string;
-  decisions: string;
-  challenges: string;
-  tradeoffs: string;
+export interface BeforeAfter {
+  flow: FlowStep[];
+  notes?: string[];
+}
+
+export interface MetricPair {
+  outcome: string;
+  metric: string;
 }
 
 export interface Project {
   name: string;
   category: string;
-  description: string;
-  status: StatusKey;
   featured?: boolean;
-  flow: FlowStep[];
-  concepts: string[];
-  tagline?: string;
-  caseStudy: ProjectCaseStudy;
+  problem: string;
+  solution: string;
+  before: BeforeAfter;
+  after: BeforeAfter;
+  impact: string[];
+  metrics?: MetricPair[];
+  tech: string[];
 }
 
 export interface CapabilityArea {
@@ -65,6 +60,66 @@ export interface Dictionary {
     primaryCta: string;
     secondaryCta: string;
   };
+  productManagement: {
+    kicker: string;
+    title: string;
+    subtitle: string;
+    lifecycle: string[];
+    statement: string;
+  };
+  work: {
+    kicker: string;
+    title: string;
+    subtitle: string;
+    completedLabel: string;
+    featuredLabel: string;
+    labels: {
+      problem: string;
+      solution: string;
+      before: string;
+      after: string;
+      impact: string;
+      metricsToMeasure: string;
+      aiArchitecture: string;
+    };
+    projects: Project[];
+  };
+  approach: {
+    kicker: string;
+    title: string;
+    message: string;
+    steps: Array<{ id: string; title: string; description: string }>;
+  };
+  measure: {
+    kicker: string;
+    title: string;
+    chainLabel: string;
+    chain: Array<{ label: string; example: string }>;
+    okrTitle: string;
+    objectiveLabel: string;
+    objective: string;
+    keyResultsLabel: string;
+    keyResults: string[];
+    metricGroups: Array<{ label: string; items: string[] }>;
+    disclaimer: string;
+  };
+  prioritization: {
+    kicker: string;
+    title: string;
+    formulaTop: string[];
+    formulaBottom: string;
+    criteria: string[];
+  };
+  thinking: {
+    kicker: string;
+    title: string;
+    intro: string;
+    tensions: Array<{ title: string; body: string }>;
+    top: string;
+    middle: string[];
+    bottom: string;
+    diagramCaption: string;
+  };
   capabilities: {
     kicker: string;
     title: string;
@@ -79,43 +134,6 @@ export interface Dictionary {
     center: string;
     message: string;
     circles: Array<{ title: string; items: string[] }>;
-  };
-  work: {
-    kicker: string;
-    title: string;
-    subtitle: string;
-    statusLabel: string;
-    flowLabel: string;
-    conceptsLabel: string;
-    caseStudyLabel: string;
-    caseStudyClose: string;
-    featuredLabel: string;
-    sections: {
-      problem: string;
-      product: string;
-      architecture: string;
-      decisions: string;
-      challenges: string;
-      tradeoffs: string;
-    };
-    statuses: Record<StatusKey, string>;
-    projects: Project[];
-  };
-  thinking: {
-    kicker: string;
-    title: string;
-    intro: string;
-    tensions: Array<{ title: string; body: string }>;
-    top: string;
-    middle: string[];
-    bottom: string;
-    diagramCaption: string;
-  };
-  approach: {
-    kicker: string;
-    title: string;
-    message: string;
-    steps: Array<{ id: string; title: string; description: string }>;
   };
   experience: {
     kicker: string;
