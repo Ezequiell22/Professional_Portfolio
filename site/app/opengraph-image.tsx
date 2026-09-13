@@ -37,7 +37,7 @@ export default function OpengraphImage() {
               color: "#60a5fa",
             }}
           >
-            AI Product Builder
+            AI Product Manager
           </div>
         </div>
 

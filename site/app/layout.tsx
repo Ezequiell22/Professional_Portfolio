@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   authors: [{ name: SITE.name }],
   keywords: [
     "AI Product Manager",
-    "AI Product Builder",
+    "AI Product Manager",
     "AI Solutions Architect",
     "AI Solutions Architecture",
     "Technical Product Manager",

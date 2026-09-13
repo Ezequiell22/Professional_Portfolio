@@ -2,7 +2,7 @@
   "meta": {
     "title": "Ezequiel Menegas — AI Product Manager & AI Solutions Architect",
     "description": "AI Product Manager and AI Solutions Architect turning complex business problems into AI products — from discovery and product strategy to architecture, engineering and production.",
-    "ogTitle": "Ezequiel Menegas — AI Product Builder",
+    "ogTitle": "Ezequiel Menegas — AI Product Manager",
     "ogDescription": "AI Product Manager & AI Solutions Architect turning complex business problems into AI products — from strategy to architecture, engineering and production."
   },
   "nav": {
@@ -20,7 +20,7 @@
     "label": "Language"
   },
   "hero": {
-    "badge": "AI Product Builder",
+    "badge": "AI Product Manager",
     "name": "Ezequiel Menegas",
     "titleTop": "AI Product Manager",
     "titleBottom": "& AI Solutions Architect",
@@ -285,7 +285,7 @@
   },
   "footer": {
     "name": "Ezequiel Menegas",
-    "tagline": "AI Product Builder · Product · AI · Architecture · Engineering",
+    "tagline": "AI Product Manager · Product · AI · Architecture · Engineering",
     "rights": "© 2026 Ezequiel Menegas"
   }
 }

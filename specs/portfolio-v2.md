@@ -1,4 +1,4 @@
-# Portfolio V2 — AI Product Builder Positioning
+# Portfolio V2 — AI Product Manager Positioning
 
 ## 1. Objetivo
 
@@ -16,7 +16,7 @@ O objetivo não é criar um portfólio tradicional de desenvolvedor.
 
 O posicionamento desejado é:
 
-> **AI Product Builder**
+> **AI Product Manager**
 >
 > AI Product Management + AI Solutions Architecture + hands-on AI Engineering.
 
@@ -36,7 +36,7 @@ Use:
 
 Como conceito secundário:
 
-> **AI Product Builder**
+> **AI Product Manager**
 
 Não apresentar o usuário primariamente como "AI Engineer" ou "Software Developer".
 
@@ -921,4 +921,4 @@ O portfólio deve deixar de parecer:
 
 E passar a parecer:
 
-> **"AI Product Builder who can take a business problem from discovery to architecture, implementation and measurable outcome."**
+> **"AI Product Manager who can take a business problem from discovery to architecture, implementation and measurable outcome."**
