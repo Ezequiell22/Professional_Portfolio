@@ -2,34 +2,24 @@ export type Lang = "en" | "pt-BR";
 
 export type FlowStep = string | { label: string; items: string[] };
 
-export interface BeforeAfter {
-  flow: FlowStep[];
-  notes?: string[];
-}
-
-export interface MetricPair {
-  outcome: string;
-  metric: string;
-}
-
 export interface Project {
+  id: string;
   name: string;
   category: string;
-  featured?: boolean;
+  status: string;
+  tagline: string;
+  capabilities: string[];
+  role: string;
   problem: string;
-  solution: string;
-  before: BeforeAfter;
-  after: BeforeAfter;
+  opportunity: string;
+  product: string;
+  architecture: string;
+  architectureFlow: FlowStep[];
+  ai: string;
+  aiItems: string[];
+  decisions: string[];
   impact: string[];
-  metrics?: MetricPair[];
-  tech: string[];
-}
-
-export interface CapabilityArea {
-  id: string;
-  title: string;
-  summary: string;
-  details: string[];
+  metrics: string[];
 }
 
 export interface Dictionary {
@@ -42,10 +32,11 @@ export interface Dictionary {
   nav: {
     logo: string;
     work: string;
-    capabilities: string;
     approach: string;
     about: string;
+    stack: string;
     contact: string;
+    connect: string;
     menuOpen: string;
     menuClose: string;
   };
@@ -53,93 +44,61 @@ export interface Dictionary {
     label: string;
   };
   hero: {
-    role: string;
-    eyebrow: string;
-    title: string;
+    badge: string;
+    name: string;
+    titleTop: string;
+    titleBottom: string;
     subtitle: string;
+    tags: string[];
     primaryCta: string;
     secondaryCta: string;
   };
-  productManagement: {
+  what: {
     kicker: string;
     title: string;
     subtitle: string;
-    lifecycle: string[];
-    statement: string;
+    flow: string[];
+    blocks: Array<{ title: string; items: string }>;
   };
   work: {
     kicker: string;
     title: string;
     subtitle: string;
-    completedLabel: string;
-    featuredLabel: string;
+    viewCase: string;
+    close: string;
     labels: {
       problem: string;
-      solution: string;
-      before: string;
-      after: string;
+      product: string;
       impact: string;
-      metricsToMeasure: string;
-      aiArchitecture: string;
+      opportunity: string;
+      architecture: string;
+      ai: string;
+      decisions: string;
+      myRole: string;
+      successMetrics: string;
     };
     projects: Project[];
   };
   approach: {
     kicker: string;
     title: string;
-    message: string;
+    subtitle: string;
     steps: Array<{ id: string; title: string; description: string }>;
-  };
-  measure: {
-    kicker: string;
-    title: string;
-    chainLabel: string;
-    chain: Array<{ label: string; example: string }>;
-    okrTitle: string;
-    objectiveLabel: string;
-    objective: string;
-    keyResultsLabel: string;
-    keyResults: string[];
+    measureTitle: string;
+    measureNote: string;
     metricGroups: Array<{ label: string; items: string[] }>;
-    disclaimer: string;
   };
-  prioritization: {
-    kicker: string;
-    title: string;
-    formulaTop: string[];
-    formulaBottom: string;
-    criteria: string[];
-  };
-  thinking: {
-    kicker: string;
-    title: string;
-    intro: string;
-    tensions: Array<{ title: string; body: string }>;
-    top: string;
-    middle: string[];
-    bottom: string;
-    diagramCaption: string;
-  };
-  capabilities: {
+  framework: {
     kicker: string;
     title: string;
     subtitle: string;
-    expandLabel: string;
-    collapseLabel: string;
-    areas: CapabilityArea[];
+    dimensions: Array<{ title: string; question: string }>;
   };
-  intersection: {
+  background: {
     kicker: string;
     title: string;
-    center: string;
     message: string;
-    circles: Array<{ title: string; items: string[] }>;
-  };
-  experience: {
-    kicker: string;
-    title: string;
     body: string;
-    body2: string;
     pathLabel: string;
     progression: string[];
   };
@@ -153,8 +112,7 @@ export interface Dictionary {
     title: string;
     text: string;
     linkedin: string;
-    github: string;
-    email: string;
+    contact: string;
   };
   footer: {
     name: string;

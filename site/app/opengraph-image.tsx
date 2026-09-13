@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Ezequiel Menegas — AI Product Manager";
+export const alt = "Ezequiel Menegas — AI Product Manager & AI Solutions Architect";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -37,7 +37,7 @@ export default function OpengraphImage() {
               color: "#a5b0ff",
             }}
           >
-            AI Product Manager
+            AI Product Builder
           </div>
         </div>
 
@@ -45,18 +45,23 @@ export default function OpengraphImage() {
           <div style={{ fontSize: 64, fontWeight: 600, lineHeight: 1.1 }}>
             Ezequiel Menegas
           </div>
+          <div style={{ fontSize: 40, fontWeight: 500, color: "#f4f4f5" }}>
+            AI Product Manager &amp; AI Solutions Architect
+          </div>
           <div style={{ fontSize: 30, color: "#a1a1aa", maxWidth: 900 }}>
-            Product strategy, AI solutions architecture and hands-on engineering — from idea
-            to production.
+            Turning complex business problems into AI products — from discovery and strategy to
+            architecture, engineering and production.
           </div>
         </div>
 
         <div style={{ display: "flex", gap: 12, fontSize: 20, color: "#71717a" }}>
-          <span>Product Management</span>
+          <span>Product</span>
           <span>·</span>
-          <span>AI Solutions Architecture</span>
+          <span>AI</span>
           <span>·</span>
-          <span>AI Engineering</span>
+          <span>Architecture</span>
+          <span>·</span>
+          <span>Engineering</span>
         </div>
       </div>
     ),

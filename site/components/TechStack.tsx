@@ -4,7 +4,7 @@ import Reveal from "./Reveal";
 
 export default function TechStack({ t }: { t: Dictionary }) {
   return (
-    <section className="py-24 md:py-32">
+    <section id="stack" className="scroll-mt-24 py-24 md:py-32">
       <Container>
         <Reveal>
           <SectionHeading

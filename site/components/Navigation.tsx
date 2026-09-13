@@ -5,7 +5,7 @@ import { useLanguage } from "@/lib/i18n";
 import { LANGS } from "@/lib/dictionaries";
 import type { Dictionary } from "@/lib/types";
 
-const NAV_IDS = ["work", "capabilities", "approach", "about", "contact"] as const;
+const NAV_IDS = ["work", "approach", "about", "stack", "contact"] as const;
 
 function LangSwitch({ compact = false }: { compact?: boolean }) {
   const { lang, setLang } = useLanguage();
@@ -93,6 +93,12 @@ export default function Navigation({ t }: { t: Dictionary }) {
           <div className="hidden md:block">
             <LangSwitch />
           </div>
+          <a
+            href="#contact"
+            className="hidden h-9 items-center justify-center rounded-full bg-fg px-4 text-sm font-medium text-bg transition-opacity hover:opacity-85 md:inline-flex"
+          >
+            {t.nav.connect}
+          </a>
           <button
             type="button"
             className="flex h-9 w-9 items-center justify-center rounded-md text-muted hover:text-fg md:hidden"
@@ -134,6 +140,13 @@ export default function Navigation({ t }: { t: Dictionary }) {
                 {navLabel(id)}
               </a>
             ))}
+            <a
+              href="#contact"
+              onClick={() => setOpen(false)}
+              className="mt-2 inline-flex h-11 items-center justify-center rounded-full bg-fg px-5 text-sm font-medium text-bg"
+            >
+              {t.nav.connect}
+            </a>
             <div className="mt-3 flex items-center justify-between border-t border-border px-3 py-3">
               <span className="text-xs text-faint">{t.langSwitch.label}</span>
               <LangSwitch />
