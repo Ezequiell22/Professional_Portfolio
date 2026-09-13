@@ -49,7 +49,7 @@ export default function OpengraphImage() {
             AI Product Manager &amp; AI Solutions Architect
           </div>
           <div style={{ fontSize: 30, color: "#a1a1aa", maxWidth: 900 }}>
-            Turning complex business problems into AI products — from discovery and strategy to
+            Turning complex business problems into AI products from discovery and strategy to
             architecture, engineering and production.
           </div>
         </div>

@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Ezequiel Menegas — AI Product Manager & AI Solutions Architect",
-    "description": "AI Product Manager and AI Solutions Architect turning complex business problems into AI products — from discovery and product strategy to architecture, engineering and production.",
+    "description": "AI Product Manager and AI Solutions Architect turning complex business problems into AI products from discovery and product strategy to architecture, engineering and production.",
     "ogTitle": "Ezequiel Menegas — AI Product Manager",
-    "ogDescription": "AI Product Manager & AI Solutions Architect turning complex business problems into AI products — from strategy to architecture, engineering and production."
+    "ogDescription": "AI Product Manager & AI Solutions Architect turning complex business problems into AI products from strategy to architecture, engineering and production."
   },
   "nav": {
     "logo": "Ezequiel",
@@ -24,7 +24,7 @@
     "name": "Ezequiel Menegas",
     "titleTop": "AI Product Manager",
     "titleBottom": "& AI Solutions Architect",
-    "subtitle": "I turn complex business problems into AI products — from discovery and product strategy to architecture, engineering and production.",
+    "subtitle": "I turn complex business problems into AI products from discovery and product strategy to architecture, engineering and production.",
     "tags": ["PRODUCT", "AI", "ARCHITECTURE", "ENGINEERING"],
     "primaryCta": "View selected work",
     "secondaryCta": "LinkedIn"
@@ -70,7 +70,7 @@
         "problem": "Software teams spend significant time translating requirements into specifications, architecture decisions, implementation tasks and engineering changes.",
         "opportunity": "A structured AI-native workflow can turn that translation from a manual bottleneck into an automated, repeatable product development path.",
         "product": "An orchestration layer connecting specifications, specialist AI agents, engineering workflows and Git/PR automation.",
-        "architecture": "A staged pipeline moves a requirement through specification, architecture, specialist agents and implementation — with review and pull request automation at the end.",
+        "architecture": "A staged pipeline moves a requirement through specification, architecture, specialist agents and implementation with review and pull request automation at the end.",
         "architectureFlow": ["Requirement", "Specification", "Architecture", "Specialist Agents", "Implementation", "Review", "Pull Request"],
         "ai": "Agents · SDD · Context Engineering · MCP · Code Generation",
         "aiItems": ["Agents", "SDD", "Context Engineering", "MCP", "Code Generation"],
@@ -118,7 +118,7 @@
         "ai": "LangGraph · RAG · Chroma · BM25 · Embeddings · Reranking · Code Analysis",
         "aiItems": ["LangGraph", "RAG", "Chroma", "BM25", "Embeddings", "Reranking", "Code Analysis"],
         "decisions": [
-          "Investigate progressively — documentation first, then ticket, then code",
+          "Investigate progressively documentation first, then ticket, then code",
           "Combine BM25 and embeddings for hybrid retrieval",
           "Add reranking to prioritize the most relevant context",
           "Include dependency and code analysis for legacy codebases"
@@ -149,7 +149,7 @@
         "problem": "Business knowledge is distributed across documents, meetings, systems and technical information, making it difficult to retrieve and use consistently.",
         "opportunity": "A governed knowledge layer can turn fragmented organizational knowledge into reliable, context-aware AI capabilities.",
         "product": "A multi-tenant knowledge platform combining ingestion, retrieval, AI agents, governance and enterprise integrations.",
-        "architecture": "Organizational knowledge is ingested into a governed knowledge layer, then exposed through RAG and AI agents to business applications — with tenant isolation, privacy and observability.",
+        "architecture": "Organizational knowledge is ingested into a governed knowledge layer, then exposed through RAG and AI agents to business applications with tenant isolation, privacy and observability.",
         "architectureFlow": ["Knowledge Sources", "Ingestion", "Knowledge Layer", "RAG", "AI Agents", "Business Applications"],
         "ai": "LangChain · LangGraph · Qdrant · Docker · RAG · AI Agents",
         "aiItems": ["LangChain", "LangGraph", "Qdrant", "Docker", "RAG", "AI Agents"],
@@ -186,7 +186,7 @@
         "problem": "Enterprise AI agents need access to business systems, but direct API access creates security, governance and data-control challenges.",
         "opportunity": "A governed access layer lets organizations expose capabilities to AI agents without losing control over security and data.",
         "product": "A platform where organizations can expose controlled capabilities to AI agents while maintaining governance, security and observability.",
-        "architecture": "Enterprise capabilities are exposed through an MCP gateway with authentication, authorization, guardrails and observability — a controlled interface between business systems and AI agents.",
+        "architecture": "Enterprise capabilities are exposed through an MCP gateway with authentication, authorization, guardrails and observability a controlled interface between business systems and AI agents.",
         "architectureFlow": ["Business Systems", "MCP Gateway", "Auth / Authorization", "Guardrails", "AI Agents"],
         "ai": "MCP · API Proxy · Authentication · Authorization · Guardrails · Observability",
         "aiItems": ["MCP", "API Proxy", "Authentication", "Authorization", "Guardrails", "Observability"],
@@ -253,15 +253,14 @@
   "background": {
     "kicker": "Background",
     "title": "Background",
-    "message": "Software Engineering + Product Management + Enterprise Systems + AI",
-    "body": "My current positioning is built on real experience in software and enterprise products — from engineering to product management to AI.",
+    "message": "Software Engineering + Product Management + AI",
+    "body": "My current positioning is built on real experience in software and enterprise products from engineering to product management to AI.",
     "pathLabel": "Trajectory",
     "progression": [
       "Software Engineering",
-      "Enterprise Software",
-      "Product Management",
       "AI Engineering",
-      "AI Product & Architecture"
+      "AI Product & Architecture",
+      "AI Product Management"
     ]
   },
   "stack": {
@@ -270,7 +269,7 @@
     "subtitle": "The technologies I use to build and validate AI products.",
     "groups": [
       { "title": "AI", "items": "LLMs · Agents · RAG · Evaluation · Generative AI" },
-      { "title": "Frameworks", "items": "LangChain · LangGraph" },
+      { "title": "Frameworks", "items": "LangChain · LangGraph · Google ADK" },
       { "title": "Data", "items": "Qdrant · Chroma · SQL" },
       { "title": "Integration", "items": "MCP · APIs · Webhooks · RabbitMQ" },
       { "title": "Engineering", "items": "Python · Delphi · Java · C# · Docker" },
@@ -279,7 +278,7 @@
   },
   "cta": {
     "title": "Building the next generation of intelligent products.",
-    "text": "My work spans product strategy, AI architecture and engineering — turning business problems into intelligent products that deliver measurable value.",
+    "text": "My work spans product strategy, AI architecture and engineering turning business problems into intelligent products that deliver measurable value.",
     "linkedin": "LinkedIn",
     "contact": "Contact"
   },

@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Ezequiel Menegas — AI Product Manager & AI Solutions Architect",
-    "description": "AI Product Manager e AI Solutions Architect que transforma problemas complexos de negócio em produtos de IA — da descoberta e estratégia de produto à arquitetura, engenharia e produção.",
-    "ogTitle": "Ezequiel Menegas — AI Product Manager",
-    "ogDescription": "AI Product Manager & AI Solutions Architect transformando problemas complexos de negócio em produtos de IA — da estratégia à arquitetura, engenharia e produção."
+    "description": "AI Product Manager e AI Solutions Architect que transforma problemas complexos de negócio em produtos de IA da descoberta e estratégia de produto à arquitetura, engenharia e produção.",
+    "ogTitle": "Ezequiel Menegas — AI Product Builder",
+    "ogDescription": "AI Product Manager & AI Solutions Architect transformando problemas complexos de negócio em produtos de IA da estratégia à arquitetura, engenharia e produção."
   },
   "nav": {
     "logo": "Ezequiel",
@@ -20,11 +20,11 @@
     "label": "Idioma"
   },
   "hero": {
-    "badge": "AI Product Manager",
+    "badge": "AI Product Builder",
     "name": "Ezequiel Menegas",
     "titleTop": "AI Product Manager",
     "titleBottom": "& AI Solutions Architect",
-    "subtitle": "Transformo problemas complexos de negócio em produtos de IA — da descoberta e estratégia de produto à arquitetura, engenharia e produção.",
+    "subtitle": "Transformo problemas complexos de negócio em produtos de IA da descoberta e estratégia de produto à arquitetura, engenharia e produção.",
     "tags": ["PRODUTO", "IA", "ARQUITETURA", "ENGENHARIA"],
     "primaryCta": "Ver projetos selecionados",
     "secondaryCta": "LinkedIn"
@@ -70,7 +70,7 @@
         "problem": "Times de software gastam tempo significativo traduzindo requisitos em especificações, decisões de arquitetura, tarefas de implementação e mudanças de engenharia.",
         "opportunity": "Um workflow AI-native estruturado pode transformar essa tradução de gargalo manual em um caminho de desenvolvimento de produto automatizado e repetível.",
         "product": "Uma camada de orquestração conectando especificações, agentes de IA especializados, workflows de engenharia e automação de Git/PR.",
-        "architecture": "Um pipeline em etapas conduz um requisito por especificação, arquitetura, agentes especializados e implementação — com revisão e automação de pull request ao final.",
+        "architecture": "Um pipeline em etapas conduz um requisito por especificação, arquitetura, agentes especializados e implementação com revisão e automação de pull request ao final.",
         "architectureFlow": ["Requisito", "Especificação", "Arquitetura", "Agentes Especializados", "Implementação", "Revisão", "Pull Request"],
         "ai": "Agents · SDD · Context Engineering · MCP · Code Generation",
         "aiItems": ["Agents", "SDD", "Context Engineering", "MCP", "Code Generation"],
@@ -118,7 +118,7 @@
         "ai": "LangGraph · RAG · Chroma · BM25 · Embeddings · Reranking · Code Analysis",
         "aiItems": ["LangGraph", "RAG", "Chroma", "BM25", "Embeddings", "Reranking", "Code Analysis"],
         "decisions": [
-          "Investigar progressivamente — documentação primeiro, depois ticket, depois código",
+          "Investigar progressivamente documentação primeiro, depois ticket, depois código",
           "Combinar BM25 e embeddings para retrieval híbrido",
           "Adicionar reranking para priorizar o contexto mais relevante",
           "Incluir análise de dependências e código para codebases legados"
@@ -149,7 +149,7 @@
         "problem": "O conhecimento de negócio está distribuído entre documentos, reuniões, sistemas e informações técnicas, dificultando recuperá-lo e usá-lo de forma consistente.",
         "opportunity": "Uma camada de conhecimento governada pode transformar conhecimento organizacional fragmentado em capacidades de IA confiáveis e contextuais.",
         "product": "Uma plataforma de conhecimento multi-tenant combinando ingestão, retrieval, agentes de IA, governança e integrações enterprise.",
-        "architecture": "O conhecimento organizacional é ingerido em uma camada de conhecimento governada e exposto por RAG e agentes de IA a aplicações de negócio — com isolamento de tenant, privacidade e observabilidade.",
+        "architecture": "O conhecimento organizacional é ingerido em uma camada de conhecimento governada e exposto por RAG e agentes de IA a aplicações de negócio com isolamento de tenant, privacidade e observabilidade.",
         "architectureFlow": ["Fontes de Conhecimento", "Ingestão", "Camada de Conhecimento", "RAG", "Agentes de IA", "Aplicações de Negócio"],
         "ai": "LangChain · LangGraph · Qdrant · Docker · RAG · AI Agents",
         "aiItems": ["LangChain", "LangGraph", "Qdrant", "Docker", "RAG", "AI Agents"],
@@ -186,7 +186,7 @@
         "problem": "Agentes de IA enterprise precisam acessar sistemas de negócio, mas o acesso direto a APIs cria desafios de segurança, governança e controle de dados.",
         "opportunity": "Uma camada de acesso governada permite que organizações exponham capacidades a agentes de IA sem perder o controle sobre segurança e dados.",
         "product": "Uma plataforma onde organizações podem expor capacidades controladas a agentes de IA mantendo governança, segurança e observabilidade.",
-        "architecture": "Capacidades enterprise são expostas por um gateway MCP com autenticação, autorização, guardrails e observabilidade — uma interface controlada entre sistemas de negócio e agentes de IA.",
+        "architecture": "Capacidades enterprise são expostas por um gateway MCP com autenticação, autorização, guardrails e observabilidade uma interface controlada entre sistemas de negócio e agentes de IA.",
         "architectureFlow": ["Sistemas de Negócio", "Gateway MCP", "Auth / Autorização", "Guardrails", "Agentes de IA"],
         "ai": "MCP · API Proxy · Authentication · Authorization · Guardrails · Observability",
         "aiItems": ["MCP", "API Proxy", "Authentication", "Authorization", "Guardrails", "Observability"],
@@ -253,15 +253,14 @@
   "background": {
     "kicker": "Sobre",
     "title": "Background",
-    "message": "Engenharia de Software + Product Management + Sistemas Enterprise + IA",
-    "body": "Meu posicionamento atual é construído sobre experiência real em software e produtos enterprise — da engenharia à gestão de produto e à IA.",
+    "message": "Engenharia de Software + Product Management + IA",
+    "body": "Meu posicionamento atual é construído sobre experiência real em software e produtos enterprise da engenharia à gestão de produto e à IA.",
     "pathLabel": "Trajetória",
     "progression": [
       "Engenharia de Software",
-      "Enterprise Software",
-      "Product Management",
-      "AI Engineering",
-      "AI Product & Architecture"
+      "Engenharia de IA",
+      "Produtos de IA e arquitetura de soluções",
+      "Gestão de produtos de IA"
     ]
   },
   "stack": {
@@ -270,7 +269,7 @@
     "subtitle": "As tecnologias que uso para construir e validar produtos de IA.",
     "groups": [
       { "title": "IA", "items": "LLMs · Agents · RAG · Evaluation · Generative AI" },
-      { "title": "Frameworks", "items": "LangChain · LangGraph" },
+      { "title": "Frameworks", "items": "LangChain · LangGraph · Google ADK" },
       { "title": "Dados", "items": "Qdrant · Chroma · SQL" },
       { "title": "Integração", "items": "MCP · APIs · Webhooks · RabbitMQ" },
       { "title": "Engenharia", "items": "Python · Delphi · Java · C# · Docker" },
@@ -279,13 +278,13 @@
   },
   "cta": {
     "title": "Construindo a próxima geração de produtos inteligentes.",
-    "text": "Meu trabalho abrange estratégia de produto, arquitetura de IA e engenharia — transformando problemas de negócio em produtos inteligentes que entregam valor mensurável.",
+    "text": "Meu trabalho abrange estratégia de produto, arquitetura de IA e engenhariatransformando problemas de negócio em produtos inteligentes que entregam valor mensurável.",
     "linkedin": "LinkedIn",
     "contact": "Contato"
   },
   "footer": {
     "name": "Ezequiel Menegas",
-    "tagline": "AI Product Manager · Produto · IA · Arquitetura · Engenharia",
+    "tagline": "AI Product Builder · Produto · IA · Arquitetura · Engenharia",
     "rights": "© 2026 Ezequiel Menegas"
   }
 }
