@@ -6,12 +6,6 @@ import Reveal from "./Reveal";
 export default function Cta({ t }: { t: Dictionary }) {
   const c = t.cta;
 
-  const buttons = [
-    { label: c.linkedin, href: LINKS.linkedin, external: true },
-    { label: c.github, href: LINKS.github, external: true },
-    { label: c.email, href: EMAIL_HREF, external: false },
-  ];
-
   return (
     <section id="contact" className="scroll-mt-24 border-t border-border bg-surface/40 py-24 md:py-32">
       <Container>
@@ -21,7 +15,7 @@ export default function Cta({ t }: { t: Dictionary }) {
               className="pointer-events-none absolute inset-0"
               style={{
                 background:
-                  "radial-gradient(ellipse 60% 70% at 50% 0%, rgba(129,140,248,0.12), transparent 70%)",
+                  "radial-gradient(ellipse 60% 70% at 50% 0%, rgba(99,102,241,0.12), transparent 70%)",
               }}
               aria-hidden="true"
             />
@@ -33,27 +27,37 @@ export default function Cta({ t }: { t: Dictionary }) {
             </p>
 
             <div className="relative mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              {buttons.map((btn) => (
-                <a
-                  key={btn.label}
-                  href={btn.href}
-                  {...(btn.external
-                    ? { target: "_blank", rel: "noopener noreferrer" }
-                    : {})}
-                  className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-full border border-border bg-surface-2 px-7 text-sm font-medium text-fg transition-colors hover:border-border-strong hover:bg-surface-3 sm:w-auto"
-                >
-                  {btn.label}
-                  <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                    <path
-                      d="M6 3.5L11 8L6 12.5"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </a>
-              ))}
+              <a
+                href={LINKS.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-full bg-fg px-7 text-sm font-medium text-bg transition-opacity hover:opacity-85 sm:w-auto"
+              >
+                {c.github}
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path
+                    d="M6 3.5L11 8L6 12.5"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </a>
+              <a
+                href={LINKS.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-full border border-border bg-surface-2 px-7 text-sm font-medium text-fg transition-colors hover:border-border-strong hover:bg-surface-3 sm:w-auto"
+              >
+                {c.linkedin}
+              </a>
+              <a
+                href={EMAIL_HREF}
+                className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-full border border-border bg-surface-2 px-7 text-sm font-medium text-fg transition-colors hover:border-border-strong hover:bg-surface-3 sm:w-auto"
+              >
+                {c.email}
+              </a>
             </div>
           </div>
         </Reveal>

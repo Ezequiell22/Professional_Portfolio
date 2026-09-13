@@ -3,8 +3,8 @@ export type Lang = "en" | "pt-BR";
 export type StatusKey =
   | "concept"
   | "prototype"
-  | "poc"
   | "development"
+  | "experiment"
   | "production";
 
 export type FlowStep = string | { label: string; items: string[] };
@@ -23,10 +23,18 @@ export interface Project {
   category: string;
   description: string;
   status: StatusKey;
+  featured?: boolean;
   flow: FlowStep[];
   concepts: string[];
   tagline?: string;
   caseStudy: ProjectCaseStudy;
+}
+
+export interface CapabilityArea {
+  id: string;
+  title: string;
+  summary: string;
+  details: string[];
 }
 
 export interface Dictionary {
@@ -51,25 +59,19 @@ export interface Dictionary {
   };
   hero: {
     role: string;
+    eyebrow: string;
     title: string;
     subtitle: string;
-    tags: string[];
     primaryCta: string;
     secondaryCta: string;
-    location: string;
-    scroll: string;
-  };
-  positioning: {
-    kicker: string;
-    title: string;
-    message: string;
-    flow: string[];
   };
   capabilities: {
     kicker: string;
     title: string;
     subtitle: string;
-    areas: Array<{ id: string; title: string; items: string[] }>;
+    expandLabel: string;
+    collapseLabel: string;
+    areas: CapabilityArea[];
   };
   intersection: {
     kicker: string;
@@ -87,6 +89,7 @@ export interface Dictionary {
     conceptsLabel: string;
     caseStudyLabel: string;
     caseStudyClose: string;
+    featuredLabel: string;
     sections: {
       problem: string;
       product: string;
@@ -98,32 +101,29 @@ export interface Dictionary {
     statuses: Record<StatusKey, string>;
     projects: Project[];
   };
+  thinking: {
+    kicker: string;
+    title: string;
+    intro: string;
+    tensions: Array<{ title: string; body: string }>;
+    top: string;
+    middle: string[];
+    bottom: string;
+    diagramCaption: string;
+  };
   approach: {
     kicker: string;
     title: string;
     message: string;
     steps: Array<{ id: string; title: string; description: string }>;
   };
-  framework: {
-    kicker: string;
-    title: string;
-    explanation: string;
-    top: string;
-    middle: string[];
-    bottom: string;
-    questionsTitle: string;
-    questions: string[];
-  };
   experience: {
     kicker: string;
     title: string;
     body: string;
-    areas: string[];
-  };
-  legacy: {
-    kicker: string;
-    title: string;
-    message: string;
+    body2: string;
+    pathLabel: string;
+    progression: string[];
   };
   stack: {
     kicker: string;

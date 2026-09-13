@@ -9,7 +9,7 @@ export default function Hero({ t }: { t: Dictionary }) {
         className="pointer-events-none absolute inset-x-0 top-0 h-[520px]"
         style={{
           background:
-            "radial-gradient(ellipse 60% 50% at 50% -10%, rgba(129,140,248,0.16), transparent 70%)",
+            "radial-gradient(ellipse 60% 50% at 50% -10%, rgba(99,102,241,0.14), transparent 70%)",
         }}
         aria-hidden="true"
       />
@@ -31,18 +31,11 @@ export default function Hero({ t }: { t: Dictionary }) {
             {t.hero.subtitle}
           </p>
 
-          <div className="mt-7 flex flex-wrap gap-2">
-            {t.hero.tags.map((tag) => (
-              <span
-                key={tag}
-                className="rounded-md border border-border bg-surface px-3 py-1.5 font-mono text-xs text-muted"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
+          <p className="mt-7 font-mono text-xs uppercase tracking-[0.16em] text-faint">
+            {t.hero.eyebrow}
+          </p>
 
-          <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
               href="#work"
               className="inline-flex h-12 items-center justify-center rounded-full bg-fg px-7 text-sm font-medium text-bg transition-opacity hover:opacity-85"
@@ -50,7 +43,7 @@ export default function Hero({ t }: { t: Dictionary }) {
               {t.hero.primaryCta}
             </a>
             <a
-              href={LINKS.linkedin}
+              href={LINKS.github}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-border bg-surface px-7 text-sm font-medium text-fg transition-colors hover:border-border-strong hover:bg-surface-2"
@@ -67,14 +60,6 @@ export default function Hero({ t }: { t: Dictionary }) {
               </svg>
             </a>
           </div>
-        </div>
-
-        <div className="mt-16 flex items-center gap-2.5 text-sm text-faint">
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-            <circle cx="8" cy="8" r="6.25" stroke="currentColor" strokeWidth="1.25" />
-            <circle cx="8" cy="8" r="2" fill="currentColor" />
-          </svg>
-          {t.hero.location}
         </div>
       </div>
     </section>

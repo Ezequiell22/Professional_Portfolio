@@ -6,19 +6,13 @@ import type { Dictionary, Project, StatusKey } from "@/lib/types";
 
 const STATUS_STYLES: Record<StatusKey, string> = {
   concept: "border-border bg-surface text-muted",
-  prototype: "border-amber-400/25 bg-amber-400/5 text-amber-300",
-  poc: "border-amber-400/25 bg-amber-400/5 text-amber-300",
+  prototype: "border-amber-400/40 bg-amber-400/10 text-amber-700",
+  experiment: "border-sky-400/40 bg-sky-400/10 text-sky-700",
   development: "border-accent-line bg-accent-dim text-accent-bright",
-  production: "border-emerald-400/25 bg-emerald-400/5 text-emerald-300",
+  production: "border-emerald-400/40 bg-emerald-400/10 text-emerald-700",
 };
 
-function CaseItem({
-  label,
-  text,
-}: {
-  label: string;
-  text: string;
-}) {
+function CaseItem({ label, text }: { label: string; text: string }) {
   return (
     <div>
       <h5 className="font-mono text-[11px] font-medium uppercase tracking-[0.16em] text-faint">
@@ -38,14 +32,26 @@ export default function ProjectCard({
 }) {
   const [open, setOpen] = useState(false);
   const w = t.work;
+  const featured = Boolean(project.featured);
 
   return (
-    <article className="rounded-2xl border border-border bg-surface p-6 transition-colors hover:border-border-strong md:p-8">
+    <article
+      className={`relative rounded-2xl border bg-surface p-6 transition-colors md:p-8 ${
+        featured ? "border-accent-line/60 shadow-[0_0_0_1px_var(--color-accent-line)]" : "border-border hover:border-border-strong"
+      }`}
+    >
       <header>
         <div className="flex flex-wrap items-start justify-between gap-4">
-          <h3 className="text-xl font-semibold tracking-tight text-fg md:text-2xl">
-            {project.name}
-          </h3>
+          <div className="flex flex-wrap items-center gap-3">
+            <h3 className="text-xl font-semibold tracking-tight text-fg md:text-2xl">
+              {project.name}
+            </h3>
+            {featured ? (
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-accent-line bg-accent-dim px-2.5 py-1 font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-accent-bright">
+                {w.featuredLabel}
+              </span>
+            ) : null}
+          </div>
           <span
             className={`inline-flex items-center gap-2 rounded-full border px-3 py-1 font-mono text-xs font-medium ${STATUS_STYLES[project.status]}`}
           >
